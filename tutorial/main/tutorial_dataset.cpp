@@ -44,8 +44,15 @@ int main(int argc, char* argv[])
   // See also the Snakefile in the tutorial top directory for an example workflow
   // If you have any problems contact Matthew Kenzie (matthew.kenzie@cern.ch) or Titus Mombächer (titus.mombacher@cern.ch)
 
+  // Start the Gammacombo Engine
+  GammaComboEngine gc("tutorial_dataset", argc, argv);
+
+  int bin_number = gc.getArg()->bin;
+  TString decay = gc.getArg()->decay;
+  TString bn(std::to_string(bin_number));
+
   // Load the workspace from its file
-  TFile f("workspace.root");
+  TFile f("workspace_"+decay+"_"+bn+".root");
   RooWorkspace* workspace = (RooWorkspace*)f.Get("dataset_workspace");
   if (workspace==NULL){
 	  std::cout<<"No workspace found:"<<std::endl;
@@ -55,12 +62,23 @@ int main(int argc, char* argv[])
   }
 
 	// You can make any changes to your workspace on the fly here
-	workspace->var("branchingRatio")->SetTitle("#font[32]{B}( B^{0}#rightarrow X )");
-	workspace->var("branchingRatio")->setVal(1.e-7);
-	workspace->var("branchingRatio")->setRange(-1.e-6,2.5e-6);
-	workspace->var("Nbkg")->SetTitle("N_{bkg}");
-	workspace->var("Nbkg")->setVal(5000);
-	workspace->var("Nbkg")->setRange(4000,6000);
+	// workspace->var("branchingRatio")->SetTitle("#font[32]{B}( B^{0}#rightarrow X )");
+	// workspace->var("branchingRatio")->setVal(1.e-7);
+	// workspace->var("branchingRatio")->setRange(-1.e-6,2.5e-6);
+	// workspace->var("Nbkg")->SetTitle("N_{bkg}");
+	// workspace->var("Nbkg")->setVal(5000);
+	// workspace->var("Nbkg")->setRange(4000,6000);
+
+  TString name_decay;
+  if(decay == "PIPIEE") name_decay = "#pi#pi";
+  if(decay == "KKEE") name_decay = "KK";
+
+  workspace->var("BFsignal")->SetTitle("#font[32]{B}( D^{0}#rightarrow "+name_decay+"ee )");
+	// workspace->var("BF")->setVal(1.e-7);
+	// workspace->var("BF")->setRange(0,2.5e-6);
+	// workspace->var("Nbkg")->SetTitle("N_{bkg}");
+	// workspace->var("Nbkg")->setVal(5000);
+	// workspace->var("Nbkg")->setRange(4000,6000);
 
   // Construct the PDF and pass the workspace to it
   //    note that you can write your own PDF_DatasetsTutorial Class which defines your own fitting procedure etc.
@@ -79,14 +97,14 @@ int main(int argc, char* argv[])
   pdf->initParameters("parameters"); // all parameters
   pdf->initConstraints("constraint_set"); // RooArgSet containing the "constraint" PDF's
   // the below are optional (will not affect the results but just make some plots for you)
-  pdf->addFitObs("mass");                         // this is not required but will make some sanity plots
+  // pdf->addFitObs("mass");                         // this is not required but will make some sanity plots
+  pdf->addFitObs("D_M");                         // this is not required but will make some sanity plots
   // pdf->unblind("mass","[4360:5260],[5460:6360]"); // have to be a bit careful about staying blind (this code isn't yet really blind friendly)
-  pdf->unblind("mass", "[4360:6360]" );
+  pdf->unblind("D_M", "[1700:2050]" );
 
   // pdf->printParameters();
 
-  // Start the Gammacombo Engine
-  GammaComboEngine gc("tutorial_dataset", argc, argv);
+  
 
   // set run on dataset option
   gc.setRunOnDataSet(true);

@@ -1,0 +1,27 @@
+Building DAG of jobs...
+Using shell: /cvmfs/lhcbdev.cern.ch/conda/envs/default/2023-03-05_13-05/linux-64/bin/bash
+Provided cores: 32
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+run_plugin             1              1              1
+run_pluginbatch        5              1              1
+run_prob               1              1              1
+total                  8              1              1
+
+Select jobs to execute...
+
+[Fri Mar 17 12:02:58 2023]
+rule run_prob:
+    input: workspace.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_BF_signal_50p_bin2.root
+    log: tutorial_dataset_prob_PDF_Dataset_BF_signal_50p_bin2.log
+    jobid: 4
+    reason: Missing output files: root/scan1dDatasetsProb_PDF_Dataset_BF_signal_50p_bin2.root; Updated input files: workspace.root
+    wildcards: name=PDF_Dataset_BF_signal, points=50, var=bin2
+    resources: tmpdir=/tmp/ascarabo
+
+RuleException in line 67 of /afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile:
+NameError: The name 'var' is unknown in this context. Did you mean 'wildcards.var'?

@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /cvmfs/lhcbdev.cern.ch/conda/envs/default/2023-03-05_13-05/linux-64/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+build_wspc        1              1              1
+total             1              1              1
+
+Select jobs to execute...
+
+[Fri Mar 24 14:26:59 2023]
+rule build_wspc:
+    output: workspace.root
+    log: build_workspace.log
+    jobid: 0
+    reason: Forced execution
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 24 14:27:00 2023]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2023-03-24T142655.775117.snakemake.log

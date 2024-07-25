@@ -43,6 +43,8 @@ OptParser::OptParser():
   hfagLabel = "";
   hfagLabelPos = "";
 	id = -99;
+	bin = 0;
+	decay = "";
 	importance = false;
   info = false;
 	interactive = false;
@@ -158,6 +160,8 @@ void OptParser::defineOptions()
   availableOptions.push_back("hfagLabel");
   availableOptions.push_back("hfagLabelPos");
 	availableOptions.push_back("id");
+	availableOptions.push_back("bin");
+	availableOptions.push_back("decay");
 	availableOptions.push_back("importance");
   availableOptions.push_back("info");
 	availableOptions.push_back("interactive");
@@ -389,6 +393,9 @@ void OptParser::parseArguments(int argc, char* argv[])
   //cmd = CmdLine("", ' ', "");
 
 	// --------------- arguments that take a value
+	TCLAP::ValueArg<int> binArg("", "bin", "Dilepton bin munber. Default: 0", false, 0, "int");
+	TCLAP::ValueArg<string> decayArg("", "decay", "Decay name. Default: ", false, "", "string");
+
 	TCLAP::ValueArg<string> dateArg("", "date", "Plot the date.", false, "", "string");
 	TCLAP::ValueArg<string> scanrangeArg("", "scanrange", "Restrict the scan range to a given range. "
 			"In 2D scans, this corresponds to the x variable. "
@@ -725,6 +732,8 @@ void OptParser::parseArguments(int argc, char* argv[])
 	// The order is alphabetical - this order defines how the options
 	// are ordered on the command line, unfortunately in reverse.
 	//
+	
+
 	if ( isIn<TString>(bookedOptions, "verbose" ) ) cmd.add( verboseArg );
 	if ( isIn<TString>(bookedOptions, "var" ) ) cmd.add(varArg);
 	if ( isIn<TString>(bookedOptions, "usage" ) ) cmd.add( usageArg );
@@ -840,6 +849,8 @@ void OptParser::parseArguments(int argc, char* argv[])
 	if ( isIn<TString>(bookedOptions, "asimovfile" ) ) cmd.add( asimovFileArg );
 	if ( isIn<TString>(bookedOptions, "asimov") ) cmd.add(asimovArg);
 	if ( isIn<TString>(bookedOptions, "action") ) cmd.add(actionArg);
+	if ( isIn<TString>(bookedOptions, "bin" ) ) cmd.add( binArg );
+	if ( isIn<TString>(bookedOptions, "decay" ) ) cmd.add( decayArg );
 
 
 	// check if the first argument is an integer. This will be discarded as a jobnumber.
@@ -865,6 +876,19 @@ void OptParser::parseArguments(int argc, char* argv[])
 	//
 	// copy over parsed values into data members
 	//
+
+	TString range_pipiee[5] = {"1e-9:5e-7","1e-9:4e-7","1e-8:1e-6","1e-8:1e-6","1e-9:3e-7"};
+	TString range_kkee[3] = {"1e-9:3e-7","1e-9:3e-7","1e-9:3e-7"};
+	decay 			  	  = TString(decayArg.getValue());
+	bin 			  	  = binArg.getValue();
+	TString range_to_scan;
+	if(decay == "PIPIEE"){
+		range_to_scan = range_pipiee[bin];
+	}
+	if(decay == "KKEE"){
+		range_to_scan = range_kkee[bin];
+	}
+
 	asimov            = asimovArg.getValue();
 	cls 			  = clsArg.getValue();
 	CL 			  	  = CLArg.getValue();
@@ -1153,7 +1177,8 @@ void OptParser::parseArguments(int argc, char* argv[])
 	parseRange(pluginplotrangeArg.getValue(), pluginPlotRangeMin, pluginPlotRangeMax);
 
 	// --scanrange
-	parseRange(scanrangeArg.getValue(), scanrangeMin, scanrangeMax);
+	// parseRange(scanrangeArg.getValue(), scanrangeMin, scanrangeMax);
+	parseRange(range_to_scan, scanrangeMin, scanrangeMax);
 	parseRange(scanrangeyArg.getValue(), scanrangeyMin, scanrangeyMax);
 
   // --origin

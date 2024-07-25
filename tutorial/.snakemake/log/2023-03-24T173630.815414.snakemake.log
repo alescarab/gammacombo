@@ -1,0 +1,3 @@
+WildcardError in line 146 of /afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile:
+No values given for wildcard 'decay'.
+  File "/afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile", line 146, in <module>

@@ -36,6 +36,7 @@ public:
     virtual void    drawSolutions();
     virtual void    drawLabel(float yPos=0.6){cout << "nothing yet" << endl;};
     virtual void    drawGroup(float yPos=0.6);
+    virtual void    drawGroup_noObs(float yPos=0.6);
     inline TString  getName(){return name;};
     void            save();
     void            setYLogRange(double min=1.e-3, double max=1){ plotLogYMin=min; plotLogYMax=max;};
@@ -54,6 +55,7 @@ public:
     vector<int> do_CLs;    ///< vector, which stores the cls method type to be plotted
     OptParser*  arg; ///< command line options
     TCanvas*    m_mainCanvas;
+    TCanvas*    m_mainCanvas_noObs;
     TString     name;
     TString     title;
     TString     label;

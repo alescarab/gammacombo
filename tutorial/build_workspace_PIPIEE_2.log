@@ -1,0 +1,411 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+
+Decay PIPIEE in bin 2
+Decay 2 PIPIEE in bin 2
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1516_211-525' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1516_211-525' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1516_211-525' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1516_211-525' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1718_211-525' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1718_211-525' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1718_211-525' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1718_211-525' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1516_525-565' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1516_525-565' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1516_525-565' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1516_525-565' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1718_525-565' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1718_525-565' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1718_525-565' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1718_525-565' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1516_565-950' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1516_565-950' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1516_565-950' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1516_565-950' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1718_565-950' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1718_565-950' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1718_565-950' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1718_565-950' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1516_950-1100' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1516_950-1100' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1516_950-1100' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1516_950-1100' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1718_950-1100' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1718_950-1100' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1718_950-1100' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1718_950-1100' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1516_1100-1500' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1516_1100-1500' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1516_1100-1500' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1516_1100-1500' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem0_1718_1100-1500' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem0_1718_1100-1500' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'Y_Norm_sigma_brem1_1718_1100-1500' with range [-1e+30, 1e+30] of the RooGaussian 'Y_Norm_constraint_brem1_1718_1100-1500' exceeds the safe range of (0, inf). Advise to limit its range.
+[#0] WARNING:InputArguments -- The parameter 'BF_norm_sigma' with range [-1e+30, 1e+30] of the RooGaussian 'BF_norm_constraint' exceeds the safe range of (0, inf). Advise to limit its range.
+211-525
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1516_bin0' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1516_bin0' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 7.8e-08 Y_Norm[ibin][ibrem][iyear] = 54.5258 Eff_Ratio[ibin][ibrem][iyear] = 0.802315
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1718_bin0' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1718_bin0' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 7.8e-08 Y_Norm[ibin][ibrem][iyear] = 250.637 Eff_Ratio[ibin][ibrem][iyear] = 0.71824
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1516_bin0' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1516_bin0' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 7.8e-08 Y_Norm[ibin][ibrem][iyear] = 48.1985 Eff_Ratio[ibin][ibrem][iyear] = 0.489758
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1718_bin0' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1718_bin0' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 7.8e-08 Y_Norm[ibin][ibrem][iyear] = 436.714 Eff_Ratio[ibin][ibrem][iyear] = 0.651762
+525-565
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1516_bin1' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1516_bin1' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 2.4e-08 Y_Norm[ibin][ibrem][iyear] = 54.5258 Eff_Ratio[ibin][ibrem][iyear] = 0.4177
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1718_bin1' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1718_bin1' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 2.4e-08 Y_Norm[ibin][ibrem][iyear] = 250.637 Eff_Ratio[ibin][ibrem][iyear] = 0.44302
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1516_bin1' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1516_bin1' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 2.4e-08 Y_Norm[ibin][ibrem][iyear] = 48.1985 Eff_Ratio[ibin][ibrem][iyear] = 0.627754
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1718_bin1' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1718_bin1' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 2.4e-08 Y_Norm[ibin][ibrem][iyear] = 436.714 Eff_Ratio[ibin][ibrem][iyear] = 0.421831
+565-950
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1516_bin2' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1516_bin2' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 4.06e-07 Y_Norm[ibin][ibrem][iyear] = 54.5258 Eff_Ratio[ibin][ibrem][iyear] = 0.825909
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1718_bin2' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1718_bin2' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 4.06e-07 Y_Norm[ibin][ibrem][iyear] = 250.637 Eff_Ratio[ibin][ibrem][iyear] = 1.0076
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1516_bin2' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1516_bin2' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 4.06e-07 Y_Norm[ibin][ibrem][iyear] = 48.1985 Eff_Ratio[ibin][ibrem][iyear] = 0.671521
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1718_bin2' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1718_bin2' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 4.06e-07 Y_Norm[ibin][ibrem][iyear] = 436.714 Eff_Ratio[ibin][ibrem][iyear] = 1.13383
+950-1100
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1516_bin3' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1516_bin3' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 4.54e-07 Y_Norm[ibin][ibrem][iyear] = 54.5258 Eff_Ratio[ibin][ibrem][iyear] = 1.00587
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1718_bin3' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1718_bin3' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 4.54e-07 Y_Norm[ibin][ibrem][iyear] = 250.637 Eff_Ratio[ibin][ibrem][iyear] = 1.17254
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1516_bin3' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1516_bin3' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 4.54e-07 Y_Norm[ibin][ibrem][iyear] = 48.1985 Eff_Ratio[ibin][ibrem][iyear] = 1.02712
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1718_bin3' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1718_bin3' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 4.54e-07 Y_Norm[ibin][ibrem][iyear] = 436.714 Eff_Ratio[ibin][ibrem][iyear] = 1.40843
+1100-1500
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1516_bin4' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1516_bin4' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 2.8e-08 Y_Norm[ibin][ibrem][iyear] = 54.5258 Eff_Ratio[ibin][ibrem][iyear] = 1.44259
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem0_1718_bin4' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem0_1718_bin4' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 2.8e-08 Y_Norm[ibin][ibrem][iyear] = 250.637 Eff_Ratio[ibin][ibrem][iyear] = 0.845209
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1516_bin4' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1516_bin4' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 2.8e-08 Y_Norm[ibin][ibrem][iyear] = 48.1985 Eff_Ratio[ibin][ibrem][iyear] = 0.760795
+[#0] WARNING:InputArguments -- The parameter 'Eff_Ratio_sigmabrem1_1718_bin4' with range [-1e+30, 1e+30] of the RooGaussian 'Eff_Ratio_constraintbrem1_1718_bin4' exceeds the safe range of (0, inf). Advise to limit its range.
+ BF_signal[ibin] = 2.8e-08 Y_Norm[ibin][ibrem][iyear] = 436.714 Eff_Ratio[ibin][ibrem][iyear] = 1.51282
+events_SIGNAL 5
+n_signal_value[ibin][ibrem][iyear] 4.57089
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+events_SIGNAL 3
+n_signal_value[ibin][ibrem][iyear] 3.28518
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+events_SIGNAL 26
+n_signal_value[ibin][ibrem][iyear] 25.6329
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+events_SIGNAL 50
+n_signal_value[ibin][ibrem][iyear] 50.2585
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Minization -- p.d.f. provides expected number of events, including extended term in likelihood.
+[#1] INFO:Minization --  Including the following constraint terms in minimization: (BF_norm_constraint,Eff_Ratio_constraintbrem0_1516_bin2,Eff_Ratio_constraintbrem0_1718_bin2,Eff_Ratio_constraintbrem1_1516_bin2,Eff_Ratio_constraintbrem1_1718_bin2,Y_Norm_constraint_brem0_1516_565-950,Y_Norm_constraint_brem0_1718_565-950,Y_Norm_constraint_brem1_1516_565-950,Y_Norm_constraint_brem1_1718_565-950)
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_mass_model_data_with_constr) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state brem0_1516 (33 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state brem0_1718 (160 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #2 for state brem1_1516 (6 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #3 for state brem1_1718 (236 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 4 slave calculators.
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (model_signal_brem0_1516_565-950,model_comb_only_bkg_brem0_1516_565-950,model_misid_only_bkg_brem0_1516_565-950,emodel_leak_brem0_1516_bin2)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (emodel_signal_brem0_1516_bin2,emodel_comb_brem0_1516_bin2,emodel_misid_brem0_1516_bin2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem0_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (model_signal_brem0_1718_565-950,model_comb_only_bkg_brem0_1718_565-950,model_misid_only_bkg_brem0_1718_565-950,emodel_leak_brem0_1718_bin2)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (emodel_signal_brem0_1718_bin2,emodel_comb_brem0_1718_bin2,emodel_misid_brem0_1718_bin2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1516_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (model_signal_brem1_1516_565-950,model_comb_only_bkg_brem1_1516_565-950,model_misid_only_bkg_brem1_1516_565-950,emodel_leak_brem1_1516_bin2)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (emodel_signal_brem1_1516_bin2,emodel_comb_brem1_1516_bin2,emodel_misid_brem1_1516_bin2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_leak_only_bkg_brem1_1718_ro_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (model_signal_brem1_1718_565-950,model_comb_only_bkg_brem1_1718_565-950,model_misid_only_bkg_brem1_1718_565-950,emodel_leak_brem1_1718_bin2)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (emodel_signal_brem1_1718_bin2,emodel_comb_brem1_1718_bin2,emodel_misid_brem1_1718_bin2)
+ **********
+ **    1 **SET PRINT           1
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 BF_norm_obs   4.00000e-06  1.00000e-06    1.00000e-20  1.00000e-05
+     2 BFsignal     4.06000e-07  2.03000e-07    0.00000e+00  1.00000e-05
+     3 n_comb_brem0_1516_bin2   1.14453e+00  5.72265e-01    0.00000e+00  3.00000e+02
+     4 n_comb_brem0_1718_bin2   5.37316e+01  2.68658e+01    0.00000e+00  3.00000e+02
+     5 n_comb_brem1_1516_bin2   9.67718e-01  4.83859e-01    0.00000e+00  3.00000e+02
+     6 n_comb_brem1_1718_bin2   1.72219e+02  3.00000e+01    0.00000e+00  3.00000e+02
+     7 n_misid_brem0_1516_bin2   2.49128e+01  1.24564e+01    0.00000e+00  2.00000e+02
+     8 n_misid_brem0_1718_bin2   6.99484e+01  2.00000e+01    0.00000e+00  2.00000e+02
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           1
+ **********
+ **********
+ **    5 **SET STR           1
+ **********
+ NOW USING STRATEGY  1: TRY TO BALANCE SPEED AGAINST RELIABILITY
+ **********
+ **    6 **MIGRAD        4000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=1233.2 FROM MIGRAD    STATUS=INITIATE       32 CALLS          33 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BF_norm_obs   4.00000e-06   1.00000e-06   2.05758e-01   6.00404e-05
+   2  BFsignal     4.06000e-07   2.03000e-07   1.06391e-01   8.66284e+00
+   3  n_comb_brem0_1516_bin2   1.14453e+00   5.72265e-01   3.20311e-02  -5.93326e+00
+   4  n_comb_brem0_1718_bin2   5.37316e+01   2.68658e+01   2.40978e-01  -3.06847e+00
+   5  n_comb_brem1_1516_bin2   9.67718e-01   4.83859e-01   2.94449e-02  -4.68618e+00
+   6  n_comb_brem1_1718_bin2   1.72219e+02   3.00000e+01   2.03734e-01  -2.37642e-01
+   7  n_misid_brem0_1516_bin2   2.49128e+01   1.24564e+01   1.94764e-01   1.13374e+00
+   8  n_misid_brem0_1718_bin2   6.99484e+01   2.00000e+01   2.11754e-01   9.35581e-01
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=1232.82 FROM MIGRAD    STATUS=CONVERGED     167 CALLS         168 TOTAL
+                     EDM=5.15576e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  BF_norm_obs   4.00000e-06   5.46560e-07   2.71119e-03  -5.88385e-05
+   2  BFsignal     3.63042e-07   9.00379e-08   9.47687e-04   3.69569e-02
+   3  n_comb_brem0_1516_bin2   2.03720e+00   2.07975e+00   2.03371e-03   1.90858e-02
+   4  n_comb_brem0_1718_bin2   5.70590e+01   9.93476e+00   1.96782e-03   1.49535e-02
+   5  n_comb_brem1_1516_bin2   1.90158e+00   2.05274e+00   2.07635e-03   4.74197e-02
+   6  n_comb_brem1_1718_bin2   1.76498e+02   1.69808e+01   2.44628e-03   3.24982e-02
+   7  n_misid_brem0_1516_bin2   2.43556e+01   5.44794e+00   1.97509e-03   3.97054e-03
+   8  n_misid_brem0_1718_bin2   6.98089e+01   1.09443e+01   2.56175e-03  -3.72772e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  3.000e-13  1.687e-23 -1.916e-17  1.381e-15 -4.805e-16 -1.606e-15 -8.313e-17  1.070e-15 
+  1.687e-23  8.113e-15 -7.379e-09 -1.147e-07 -2.340e-08 -7.383e-07 -7.729e-08 -3.100e-07 
+ -1.916e-17 -7.379e-09  4.336e+00  1.043e-01  5.799e-02  6.715e-01 -1.355e+00  2.820e-01 
+  1.381e-15 -1.147e-07  1.043e-01  9.893e+01  3.308e-01  1.148e+01  1.093e+00 -2.117e+01 
+ -4.805e-16 -2.340e-08  5.799e-02  3.308e-01  4.224e+00  2.130e+00 -5.243e-01  8.943e-01 
+ -1.606e-15 -7.383e-07  6.715e-01  1.148e+01  2.130e+00  2.896e+02  7.034e+00  2.379e+01 
+ -8.313e-17 -7.729e-08 -1.355e+00  1.093e+00 -5.243e-01  7.034e+00  2.975e+01  2.953e+00 
+  1.070e-15 -3.100e-07  2.820e-01 -2.117e+01  8.943e-01  2.379e+01  2.953e+00  1.203e+02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.00000   1.000  0.000 -0.000  0.000 -0.000 -0.000 -0.000  0.000
+        2  0.58408   0.000  1.000 -0.039 -0.128 -0.126 -0.482 -0.157 -0.314
+        3  0.13301  -0.000 -0.039  1.000  0.005  0.014  0.019 -0.119  0.012
+        4  0.27788   0.000 -0.128  0.005  1.000  0.016  0.068  0.020 -0.194
+        5  0.14331  -0.000 -0.126  0.014  0.016  1.000  0.061 -0.047  0.040
+        6  0.48231  -0.000 -0.482  0.019  0.068  0.061  1.000  0.076  0.127
+        7  0.21188  -0.000 -0.157 -0.119  0.020 -0.047  0.076  1.000  0.049
+        8  0.39353   0.000 -0.314  0.012 -0.194  0.040  0.127  0.049  1.000
+ **********
+ **    7 **SET ERR         0.5
+ **********
+ **********
+ **    8 **SET PRINT           1
+ **********
+ **********
+ **    9 **HESSE        4000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=1232.82 FROM HESSE     STATUS=OK             61 CALLS         229 TOTAL
+                     EDM=5.15595e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  BF_norm_obs   4.00000e-06   5.46560e-07   1.08448e-04  -2.01359e-01
+   2  BFsignal     3.63042e-07   9.00991e-08   1.89537e-04  -1.18738e+00
+   3  n_comb_brem0_1516_bin2   2.03720e+00   2.07970e+00   4.06742e-04  -1.40580e+00
+   4  n_comb_brem0_1718_bin2   5.70590e+01   9.93566e+00   3.93564e-04  -6.68242e-01
+   5  n_comb_brem1_1516_bin2   1.90158e+00   2.05282e+00   4.15270e-04  -1.41140e+00
+   6  n_comb_brem1_1718_bin2   1.76498e+02   1.69893e+01   4.89256e-04   1.77585e-01
+   7  n_misid_brem0_1516_bin2   2.43556e+01   5.44825e+00   3.95019e-04  -8.57860e-01
+   8  n_misid_brem0_1718_bin2   6.98089e+01   1.09471e+01   5.12351e-04  -3.06697e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  8    ERR DEF=0.5
+  3.000e-13 -1.888e-21 -5.837e-15 -1.757e-13 -5.225e-14  1.808e-13  1.719e-13 -1.420e-13 
+ -1.888e-21  8.124e-15 -7.358e-09 -1.148e-07 -2.346e-08 -7.404e-07 -7.755e-08 -3.108e-07 
+ -5.837e-15 -7.358e-09  4.335e+00  1.039e-01  5.803e-02  6.706e-01 -1.352e+00  2.815e-01 
+ -1.757e-13 -1.148e-07  1.039e-01  9.895e+01  3.315e-01  1.151e+01  1.095e+00 -2.120e+01 
+ -5.225e-14 -2.346e-08  5.803e-02  3.315e-01  4.225e+00  2.139e+00 -5.260e-01  8.976e-01 
+  1.808e-13 -7.404e-07  6.706e-01  1.151e+01  2.139e+00  2.899e+02  7.068e+00  2.389e+01 
+  1.719e-13 -7.755e-08 -1.352e+00  1.095e+00 -5.260e-01  7.068e+00  2.975e+01  2.967e+00 
+ -1.420e-13 -3.108e-07  2.815e-01 -2.120e+01  8.976e-01  2.389e+01  2.967e+00  1.204e+02 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4      5      6      7      8
+        1  0.00000   1.000 -0.000 -0.000 -0.000 -0.000  0.000  0.000 -0.000
+        2  0.58484  -0.000  1.000 -0.039 -0.128 -0.127 -0.482 -0.158 -0.314
+        3  0.13278  -0.000 -0.039  1.000  0.005  0.014  0.019 -0.119  0.012
+        4  0.27818  -0.000 -0.128  0.005  1.000  0.016  0.068  0.020 -0.194
+        5  0.14364  -0.000 -0.127  0.014  0.016  1.000  0.061 -0.047  0.040
+        6  0.48311   0.000 -0.482  0.019  0.068  0.061  1.000  0.076  0.128
+        7  0.21213   0.000 -0.158 -0.119  0.020 -0.047  0.076  1.000  0.050
+        8  0.39409  -0.000 -0.314  0.012 -0.194  0.040  0.128  0.050  1.000
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+ MY RESULTS ON REAL DATA: 
+
+  RooFitResult: minimized FCN value: 1232.82, estimated distance to minimum: 5.15595e-05
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+           BF_norm_obs    4.0000e-06 +/-  5.47e-07
+              BFsignal    3.6304e-07 +/-  9.01e-08
+  n_comb_brem0_1516_bin2    2.0372e+00 +/-  2.08e+00
+  n_comb_brem0_1718_bin2    5.7059e+01 +/-  9.94e+00
+  n_comb_brem1_1516_bin2    1.9016e+00 +/-  2.05e+00
+  n_comb_brem1_1718_bin2    1.7650e+02 +/-  1.70e+01
+  n_misid_brem0_1516_bin2    2.4356e+01 +/-  5.45e+00
+  n_misid_brem0_1718_bin2    6.9809e+01 +/-  1.09e+01
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooSimultaneous::mass_model
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooCategory::sample_CLs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooAddPdf::final_model_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_signal_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooCBShape::model_signal_brem0_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::D_M
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::mean_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::sigma_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::alpha_CB_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooFormulaVar::n_signal_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::BFsignal
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::BF_norm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_brem0_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_comb_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooPolynomial::model_comb_only_bkg_brem0_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::c1_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_comb_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_misid_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooBukinPdf::model_misid_only_bkg_brem0_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::mean_had_bkg_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::sigma_had_bkg_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::asym_had_bkg_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::rho0_had_bkg_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::rho1_had_bkg_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_misid_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_leak_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooBukinPdf::model_leak_only_bkg_brem0_1516_ro
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::mean_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::sigma_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::asym_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::rho0_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::rho1_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_leak_brem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooAddPdf::final_model_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_signal_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooCrystalBall::model_signal_brem1_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::mean1_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::sigmaL_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::alphaL_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::nL_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::alphaR_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::nR_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooFormulaVar::n_signal_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_brem1_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_comb_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooPolynomial::model_comb_only_bkg_brem1_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::c1_brem1_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_comb_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_misid_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooBukinPdf::model_misid_only_bkg_brem1_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::mean_had_bkg_brem_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::sigma_had_bkg_brem_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::asym_had_bkg_brem_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::rho0_had_bkg_brem_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::rho1_had_bkg_brem_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooFormulaVar::n_misid_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::ratio_brem1_brem0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_leak_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooBukinPdf::model_leak_only_bkg_brem1_1516_ro
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::mean1_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::sigma1_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::asym1_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::rho01_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::rho11_ro_leak
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_leak_brem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooAddPdf::final_model_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_signal_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooCBShape::model_signal_brem0_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooFormulaVar::n_signal_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_brem0_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_comb_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooPolynomial::model_comb_only_bkg_brem0_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_comb_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_misid_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooBukinPdf::model_misid_only_bkg_brem0_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_misid_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_leak_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooBukinPdf::model_leak_only_bkg_brem0_1718_ro
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_leak_brem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooAddPdf::final_model_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_signal_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooCrystalBall::model_signal_brem1_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooFormulaVar::n_signal_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_brem1_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_comb_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooPolynomial::model_comb_only_bkg_brem1_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_comb_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_misid_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooBukinPdf::model_misid_only_bkg_brem1_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooFormulaVar::n_misid_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooExtendPdf::emodel_leak_brem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooBukinPdf::model_leak_only_bkg_brem1_1718_ro
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::n_leak_brem1_1718_bin2
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(dataset_workspace) ERROR object named extended_bkg_model: component(s) (model_comb_only_bkg_brem0_1516_565-950,model_misid_only_bkg_brem0_1516_565-950,model_leak_only_bkg_brem0_1516_ro,model_comb_only_bkg_brem1_1516_565-950,model_misid_only_bkg_brem1_1516_565-950,n_misid_brem1_1516_bin2,model_leak_only_bkg_brem1_1516_ro,model_comb_only_bkg_brem0_1718_565-950,model_misid_only_bkg_brem0_1718_565-950,model_leak_only_bkg_brem0_1718_ro,model_comb_only_bkg_brem1_1718_565-950,model_misid_only_bkg_brem1_1718_565-950,n_misid_brem1_1718_bin2,model_leak_only_bkg_brem1_1718_ro) already in the workspace and no conflict resolution protocol specified
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing dataset data
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::BF_norm_constraint
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::BF_norm_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::BF_norm_sigma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::Eff_Ratio_constraintbrem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_obsbrem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_sigmabrem0_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::Eff_Ratio_constraintbrem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_obsbrem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_sigmabrem0_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::Eff_Ratio_constraintbrem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_obsbrem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_sigmabrem1_1516_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::Eff_Ratio_constraintbrem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_obsbrem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Eff_Ratio_sigmabrem1_1718_bin2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::Y_Norm_constraint_brem0_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_obs_brem0_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_sigma_brem0_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::Y_Norm_constraint_brem0_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_obs_brem0_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_sigma_brem0_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::Y_Norm_constraint_brem1_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_obs_brem1_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_sigma_brem1_1516_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooGaussian::Y_Norm_constraint_brem1_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_obs_brem1_1718_565-950
+[#1] INFO:ObjectHandling -- RooWorkspace::import(dataset_workspace) importing RooRealVar::Y_Norm_sigma_brem1_1718_565-950

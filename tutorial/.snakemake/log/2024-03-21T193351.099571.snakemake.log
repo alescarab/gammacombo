@@ -1,0 +1,745 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+run_plugin             8
+run_pluginbatch       40
+total                 49
+
+Select jobs to execute...
+
+[Thu Mar 21 19:33:51 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_0_0.log
+    jobid: 14
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=0, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 20:00:13 2024]
+Finished job 14.
+1 of 49 steps (2%) done
+Select jobs to execute...
+
+[Thu Mar 21 20:00:13 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_0_1.log
+    jobid: 15
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=0, jobnum=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 20:26:35 2024]
+Finished job 15.
+2 of 49 steps (4%) done
+Select jobs to execute...
+
+[Thu Mar 21 20:26:35 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_0_2.log
+    jobid: 16
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=0, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 20:53:03 2024]
+Finished job 16.
+3 of 49 steps (6%) done
+Select jobs to execute...
+
+[Thu Mar 21 20:53:03 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_0_3.log
+    jobid: 17
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=0, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 21:19:34 2024]
+Finished job 17.
+4 of 49 steps (8%) done
+Select jobs to execute...
+
+[Thu Mar 21 21:19:34 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_0_4.log
+    jobid: 18
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=0, jobnum=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 21:46:14 2024]
+Finished job 18.
+5 of 49 steps (10%) done
+Select jobs to execute...
+
+[Thu Mar 21 21:46:14 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_0_1.log
+    jobid: 42
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=0, jobnum=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 22:02:25 2024]
+Finished job 42.
+6 of 49 steps (12%) done
+Select jobs to execute...
+
+[Thu Mar 21 22:02:25 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_0_2.log
+    jobid: 43
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=0, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 22:18:43 2024]
+Finished job 43.
+7 of 49 steps (14%) done
+Select jobs to execute...
+
+[Thu Mar 21 22:18:43 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_0_3.log
+    jobid: 44
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=0, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 22:35:07 2024]
+Finished job 44.
+8 of 49 steps (16%) done
+Select jobs to execute...
+
+[Thu Mar 21 22:35:07 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_0_4.log
+    jobid: 45
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=0, jobnum=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 22:51:35 2024]
+Finished job 45.
+9 of 49 steps (18%) done
+Select jobs to execute...
+
+[Thu Mar 21 22:51:35 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_0_0.log
+    jobid: 40
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=0, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 23:08:06 2024]
+Finished job 40.
+10 of 49 steps (20%) done
+Select jobs to execute...
+
+[Thu Mar 21 23:08:06 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_2_4.log
+    jobid: 28
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=2, jobnum=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Thu Mar 21 23:49:09 2024]
+Finished job 28.
+11 of 49 steps (22%) done
+Select jobs to execute...
+
+[Thu Mar 21 23:49:09 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_2_0.log
+    jobid: 24
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=2, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 00:30:04 2024]
+Finished job 24.
+12 of 49 steps (24%) done
+Select jobs to execute...
+
+[Fri Mar 22 00:30:04 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_2_1.log
+    jobid: 25
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=2, jobnum=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 01:11:08 2024]
+Finished job 25.
+13 of 49 steps (27%) done
+Select jobs to execute...
+
+[Fri Mar 22 01:11:08 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_2_2.log
+    jobid: 26
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=2, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 01:52:08 2024]
+Finished job 26.
+14 of 49 steps (29%) done
+Select jobs to execute...
+
+[Fri Mar 22 01:52:08 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_2_3.log
+    jobid: 27
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=2, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 02:32:54 2024]
+Finished job 27.
+15 of 49 steps (31%) done
+Select jobs to execute...
+
+[Fri Mar 22 02:32:54 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_0.log
+    jobid: 29
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=3, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 02:47:35 2024]
+Finished job 29.
+16 of 49 steps (33%) done
+Select jobs to execute...
+
+[Fri Mar 22 02:47:35 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_1.log
+    jobid: 30
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=3, jobnum=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 03:02:17 2024]
+Finished job 30.
+17 of 49 steps (35%) done
+Select jobs to execute...
+
+[Fri Mar 22 03:02:17 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_2.log
+    jobid: 31
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=3, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 03:17:01 2024]
+Finished job 31.
+18 of 49 steps (37%) done
+Select jobs to execute...
+
+[Fri Mar 22 03:17:01 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_3.log
+    jobid: 32
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=3, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 03:31:42 2024]
+Finished job 32.
+19 of 49 steps (39%) done
+Select jobs to execute...
+
+[Fri Mar 22 03:31:42 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_4.log
+    jobid: 33
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=3, jobnum=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 03:46:06 2024]
+Finished job 33.
+20 of 49 steps (41%) done
+Select jobs to execute...
+
+[Fri Mar 22 03:46:07 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_4_0.log
+    jobid: 34
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=4, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 03:57:12 2024]
+Finished job 34.
+21 of 49 steps (43%) done
+Select jobs to execute...
+
+[Fri Mar 22 03:57:12 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_4_1.log
+    jobid: 35
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=4, jobnum=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 04:08:11 2024]
+Finished job 35.
+22 of 49 steps (45%) done
+Select jobs to execute...
+
+[Fri Mar 22 04:08:11 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_4_2.log
+    jobid: 36
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=4, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 04:19:25 2024]
+Finished job 36.
+23 of 49 steps (47%) done
+Select jobs to execute...
+
+[Fri Mar 22 04:19:25 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_4_4.log
+    jobid: 38
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=4, jobnum=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 04:30:36 2024]
+Finished job 38.
+24 of 49 steps (49%) done
+Select jobs to execute...
+
+[Fri Mar 22 04:30:36 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_4_3.log
+    jobid: 37
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=4, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 04:41:50 2024]
+Finished job 37.
+25 of 49 steps (51%) done
+Select jobs to execute...
+
+[Fri Mar 22 04:41:50 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_1_0.log
+    jobid: 19
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=1, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 04:50:58 2024]
+Finished job 19.
+26 of 49 steps (53%) done
+Select jobs to execute...
+
+[Fri Mar 22 04:50:58 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_1_1.log
+    jobid: 20
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=1, jobnum=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 05:00:03 2024]
+Finished job 20.
+27 of 49 steps (55%) done
+Select jobs to execute...
+
+[Fri Mar 22 05:00:03 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_1_3.log
+    jobid: 22
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=1, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 05:09:07 2024]
+Finished job 22.
+28 of 49 steps (57%) done
+Select jobs to execute...
+
+[Fri Mar 22 05:09:07 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_1_2.log
+    jobid: 21
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=1, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 05:18:14 2024]
+Finished job 21.
+29 of 49 steps (59%) done
+Select jobs to execute...
+
+[Fri Mar 22 05:18:14 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_1_4.log
+    jobid: 23
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=1, jobnum=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 05:27:21 2024]
+Finished job 23.
+30 of 49 steps (61%) done
+Select jobs to execute...
+
+[Fri Mar 22 05:27:21 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_2_0.log
+    jobid: 52
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=2, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 05:37:10 2024]
+Finished job 52.
+31 of 49 steps (63%) done
+Select jobs to execute...
+
+[Fri Mar 22 05:37:10 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_2_1.log
+    jobid: 54
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=2, jobnum=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 05:46:57 2024]
+Finished job 54.
+32 of 49 steps (65%) done
+Select jobs to execute...
+
+[Fri Mar 22 05:46:57 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_2_3.log
+    jobid: 56
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=2, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 05:56:43 2024]
+Finished job 56.
+33 of 49 steps (67%) done
+Select jobs to execute...
+
+[Fri Mar 22 05:56:43 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_2_2.log
+    jobid: 55
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=2, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 06:06:34 2024]
+Finished job 55.
+34 of 49 steps (69%) done
+Select jobs to execute...
+
+[Fri Mar 22 06:06:34 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_2_4.log
+    jobid: 57
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=2, jobnum=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 06:16:23 2024]
+Finished job 57.
+35 of 49 steps (71%) done
+Select jobs to execute...
+
+[Fri Mar 22 06:16:24 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_1_1.log
+    jobid: 48
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=1, jobnum=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 06:25:19 2024]
+Finished job 48.
+36 of 49 steps (73%) done
+Select jobs to execute...
+
+[Fri Mar 22 06:25:19 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_1_0.log
+    jobid: 46
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=1, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 06:34:18 2024]
+Finished job 46.
+37 of 49 steps (76%) done
+Select jobs to execute...
+
+[Fri Mar 22 06:34:18 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_1_2.log
+    jobid: 49
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=1, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 06:43:13 2024]
+Finished job 49.
+38 of 49 steps (78%) done
+Select jobs to execute...
+
+[Fri Mar 22 06:43:13 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_1_3.log
+    jobid: 50
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=1, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 06:52:08 2024]
+Finished job 50.
+39 of 49 steps (80%) done
+Select jobs to execute...
+
+[Fri Mar 22 06:52:08 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_1.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_1_4.log
+    jobid: 51
+    reason: Code has changed since last execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=1, jobnum=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:02 2024]
+Finished job 51.
+40 of 49 steps (82%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:02 2024]
+rule run_plugin:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin_expected_standardCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_PIPIEE_0.log
+    jobid: 39
+    reason: Missing output files: plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin_expected_standardCLs.py; Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, bin_number=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:06 2024]
+Finished job 39.
+41 of 49 steps (84%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:06 2024]
+rule run_plugin:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_expected_standardCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_KKEE_0.log
+    jobid: 62
+    reason: Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, bin_number=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:08 2024]
+Finished job 62.
+42 of 49 steps (86%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:08 2024]
+rule run_plugin:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin_expected_standardCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_PIPIEE_2.log
+    jobid: 59
+    reason: Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, bin_number=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:10 2024]
+Finished job 59.
+43 of 49 steps (88%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:10 2024]
+rule run_plugin:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin_expected_standardCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_PIPIEE_3.log
+    jobid: 60
+    reason: Missing output files: plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin_expected_standardCLs.py; Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, bin_number=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:12 2024]
+Finished job 60.
+44 of 49 steps (90%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:12 2024]
+rule run_plugin:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin_expected_standardCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_PIPIEE_4.log
+    jobid: 61
+    reason: Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, bin_number=4
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:14 2024]
+Finished job 61.
+45 of 49 steps (92%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:14 2024]
+rule run_plugin:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin_expected_standardCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_PIPIEE_1.log
+    jobid: 58
+    reason: Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, bin_number=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:16 2024]
+Finished job 58.
+46 of 49 steps (94%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:16 2024]
+rule run_plugin:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin_expected_standardCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_KKEE_2.log
+    jobid: 64
+    reason: Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, bin_number=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:18 2024]
+Finished job 64.
+47 of 49 steps (96%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:18 2024]
+rule run_plugin:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin_expected_standardCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_KKEE_1.log
+    jobid: 63
+    reason: Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, bin_number=1
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:20 2024]
+Finished job 63.
+48 of 49 steps (98%) done
+Select jobs to execute...
+
+[Fri Mar 22 07:01:20 2024]
+localrule all:
+    input: workspace_PIPIEE_0.root, workspace_PIPIEE_1.root, workspace_PIPIEE_2.root, workspace_PIPIEE_3.root, workspace_PIPIEE_4.root, workspace_KKEE_0.root, workspace_KKEE_1.root, workspace_KKEE_2.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_0.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_1.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_2.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin_expected_standardCLs.py, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_1.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin_expected_standardCLs.py
+    jobid: 0
+    reason: Input files updated by another job: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin_CLs2.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin_expected_standardCLs.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_1_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_2_DatasetsPlugin_expected_standardCLs.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin_CLs2.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin_expected_standardCLs.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_3_DatasetsPlugin_expected_standardCLs.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin_expected_standardCLs.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_0_DatasetsPlugin.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_CLs2.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin_CLs2.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_2_DatasetsPlugin.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_4_DatasetsPlugin_CLs2.py, plots/cl/clintervals_PDF_Dataset_BFsignal_PIPIEE_1_DatasetsPlugin_expected_standardCLs.py, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 22 07:01:20 2024]
+Finished job 0.
+49 of 49 steps (100%) done
+Complete log: .snakemake/log/2024-03-21T193351.099571.snakemake.log

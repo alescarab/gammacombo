@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in rule run_pluginbatch in file /afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile, line 128:
+Wildcards in input files cannot be determined from output files:
+'bin_number'

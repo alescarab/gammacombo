@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /cvmfs/lhcbdev.cern.ch/conda/envs/default/2023-03-05_13-05/linux-64/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+build_wspc        1              1              1
+total             1              1              1
+
+Select jobs to execute...
+
+[Fri Mar 24 14:19:21 2023]
+rule build_wspc:
+    output: workspace.root
+    log: build_workspace.log
+    jobid: 0
+    reason: Forced execution
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 24 14:19:34 2023]
+Error in rule build_wspc:
+    jobid: 0
+    output: workspace.root
+    log: build_workspace.log (check log file(s) for error message)
+    shell:
+        export PATH=/usr/local/bin:/usr/bin ;set +u ;source ../scripts/setup_lxplus.sh ; bin/tutorial_dataset_build_workspace > build_workspace.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-03-24T141915.782267.snakemake.log

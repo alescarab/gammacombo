@@ -1,0 +1,48 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+all                      1
+build_wspc               8
+run_plugin               8
+run_plugin_no_cls        8
+run_prob                 8
+total                   33
+
+Select jobs to execute...
+
+[Wed Mar 20 18:45:19 2024]
+rule run_prob:
+    input: workspace.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    log: tutorial_dataset_prob_PDF_Dataset_50p_BFsignal_KKEE_0.log
+    jobid: 24
+    reason: Forced execution
+    wildcards: name=PDF_Dataset, points=50, var=BFsignal, decay=KKEE, bin_number=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Wed Mar 20 18:45:24 2024]
+Finished job 24.
+1 of 33 steps (3%) done
+Select jobs to execute...
+
+[Wed Mar 20 18:45:24 2024]
+rule run_plugin_no_cls:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_1_run4.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run0.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run1.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run2.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run3.root, root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_2_run4.root
+    output: plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_noCLs.py
+    log: tutorial_dataset_plugin_PDF_Dataset_BFsignal_KKEE_0_no_CLs.log
+    jobid: 30
+    reason: Missing output files: plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_noCLs.py; Input files updated by another job: root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, bin_number=0
+    resources: tmpdir=/tmp/ascarabo
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule run_plugin_no_cls in file /afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile, line 202:
+Job 30  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+plots/cl/clintervals_PDF_Dataset_BFsignal_KKEE_0_DatasetsPlugin_noCLs.py
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-03-20T184518.682528.snakemake.log

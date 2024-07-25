@@ -36,6 +36,8 @@ class OptParser
 		bool isAsimovCombiner(int id);
 		bool isQuickhack(int id);
 
+		int bin;
+		TString decay;
 		vector<TString>	action;
 		vector<int>		asimov;
 		vector<TString> asimovfile;

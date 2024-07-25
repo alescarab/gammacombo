@@ -1,0 +1,95 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+
+INFO in PDF_Datasets::initData -- Data initialized
+intitalising no multipdf. isPdfSet=0 isMultipdfSet=0.
+INFO in PDF_Datasets::initPDF -- PDF initialized
+[#1] INFO:Minization -- createNLL: caching constraint set under name CONSTR_OF_PDF_mass_model_FOR_OBS_D_M:sample_CLs with 9 entries
+[#1] INFO:Minization --  Including the following constraint terms in minimization: (BF_norm_constraint,Eff_Ratio_constraintbrem0_1516_bin1,Eff_Ratio_constraintbrem0_1718_bin1,Eff_Ratio_constraintbrem1_1516_bin1,Eff_Ratio_constraintbrem1_1718_bin1,Y_Norm_constraint_brem0_1516_525-565,Y_Norm_constraint_brem0_1718_525-565,Y_Norm_constraint_brem1_1516_525-565,Y_Norm_constraint_brem1_1718_525-565)
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state brem0_1516 (3 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state brem0_1718 (10 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #2 for state brem1_1516 (0 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #3 for state brem1_1718 (30 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 4 slave calculators.
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Eval -- RooRealVar::setRange(D_M) new range named 'unblind0' created with bounds [1700,2050]
+=============== Global minimum (2*-Log(Likelihood)) is: 433.41
+=============== Bkg minimum (2*-Log(Likelihood)) is: 434.746
+loading scanner: plots/scanner/tutorial_dataset_scanner_PDF_Dataset_DatasetsProb_BFsignal.root
+analysing toys ...
+  4% [==                                                ]  8% [====                                              ] 12% [======                                            ] 16% [========                                          ] 20% [==========                                        ] 24% [============                                      ] 28% [==============                                    ] 32% [================                                  ] 36% [==================                                ] 40% [====================                              ] 44% [======================                            ] 48% [========================                          ] 52% [==========================                        ] 56% [============================                      ] 60% [==============================                    ] 64% [================================                  ] 68% [==================================                ] 72% [====================================              ] 76% [======================================            ] 80% [========================================          ] 84% [==========================================        ] 88% [============================================      ] 92% [==============================================    ] 96% [================================================  ]100% [==================================================]                                                          Best fit at: scanVar  = 4.23366e-08 with Chi2Min: 433.41
+=============== Global Minimum (2*-Log(Likelihood)) is: 433.41
+=============== Bkg minimum (2*-Log(Likelihood)) is: 434.746
+MethodDatasetsPluginScan::readFiles() : opening root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.rootMethodDatasetsPluginScan::readFiles() : opening root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run1.rootMethodDatasetsPluginScan::readFiles() : opening root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run2.rootMethodDatasetsPluginScan::readFiles() : opening root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run3.rootMethodDatasetsPluginScan::readFiles() : opening root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run4.rootMethodDatasetsPluginScan::readFiles() : read files: 5
+analysing toys ...
+  2% [=                                                 ]  4% [==                                                ]  6% [===                                               ]  8% [====                                              ] 10% [=====                                             ] 12% [======                                            ] 14% [=======                                           ] 16% [========                                          ] 18% [=========                                         ] 20% [==========                                        ] 22% [===========                                       ] 24% [============                                      ] 26% [=============                                     ] 28% [==============                                    ] 30% [===============                                   ] 32% [================                                  ] 34% [=================                                 ] 36% [==================                                ] 38% [===================                               ] 40% [====================                              ] 42% [=====================                             ] 44% [======================                            ] 46% [=======================                           ] 48% [========================                          ] 50% [=========================                         ] 52% [==========================                        ] 54% [===========================                       ] 56% [============================                      ] 58% [=============================                     ] 60% [==============================                    ] 62% [===============================                   ] 64% [================================                  ] 66% [=================================                 ] 68% [==================================                ] 70% [===================================               ] 72% [====================================              ] 74% [=====================================             ] 76% [======================================            ] 78% [=======================================           ] 80% [========================================          ] 82% [=========================================         ] 84% [==========================================        ] 86% [===========================================       ] 88% [============================================      ] 90% [=============================================     ] 92% [==============================================    ] 94% [===============================================   ] 96% [================================================  ] 98% [================================================= ]100% [==================================================]                                                          MethodDatasetsPluginScan::readScan1dTrees() : average number of toys per scanpoint: 500
+MethodDatasetsPluginScan::readScan1dTrees() : reading entries 0%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 1%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 2%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 3%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 4%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 5%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 6%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 7%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 8%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 9%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 10%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 11%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 12%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 13%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 14%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 15%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 16%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 17%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 18%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 19%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 20%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 21%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 22%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 23%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 24%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 25%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 26%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 27%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 28%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 29%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 30%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 31%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 32%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 33%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 34%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 35%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 36%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 37%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 38%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 39%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 40%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 41%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 42%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 43%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 44%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 45%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 46%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 47%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 48%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 49%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 50%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 51%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 52%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 53%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 54%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 55%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 56%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 57%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 58%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 59%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 60%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 61%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 62%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 63%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 64%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 65%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 66%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 67%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 68%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 69%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 70%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 71%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 72%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 73%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 74%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 75%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 76%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 77%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 78%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 79%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 80%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 81%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 82%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 83%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 84%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 85%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 86%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 87%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 88%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 89%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 90%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 91%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 92%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 93%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 94%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 95%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 96%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 97%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 98%   MethodDatasetsPluginScan::readScan1dTrees() : reading entries 99%   MethodDatasetsPluginScan::readScan1dTrees() : reading done.           
+
+MethodDatasetsPluginScan::readScan1dTrees() : read an average of 499.98 toys per scan point.
+MethodDatasetsPluginScan::readScan1dTrees() : fraction of failed toys: 0.00%.
+MethodDatasetsPluginScan::readScan1dTrees() : fraction of failed background toys: 0.80%.
+MethodDatasetsPluginScan::readScan1dTrees() : fraction of unphysical (negative test stat) toys: 0.00%.
+MethodDatasetsPluginScan::readScan1dTrees() : fraction of unphysical (negative test stat) bkg toys: 0.17%.
+MethodDatasetsPluginScan::readScan1dTrees() : signal significance: naive p-val: 0.25 (1.16 sigma) vs. value from toys: 0.06 (1.92 sigma)
+MethodDatasetsPluginScan::readScan1dTrees() : fit prob of best-fit point: (53.2+/-2.2)%
+CONFIDENCE INTERVALS for combination PDF_Dataset
+
+
+
+
+
+
+BFsignal =   0.000
+
+BFsignal = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
+
+Confidence Intervals for CLs method 2:
+CONFIDENCE INTERVALS for combination PDF_Dataset
+
+
+
+
+
+
+BFsignal =   0.000
+Standard CL_s: 
+BFsignal = [  -0.00,    0.00] @0.90CL, DatasetsPlugin (boundary scan)
+Standard CL_s: 
+BFsignal = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
+
+Determine expected upper limit:
+Confidence Intervals for CLs method 2:
+CONFIDENCE INTERVALS for combination PDF_Dataset
+
+
+
+
+
+
+BFsignal =   0.000
+Standard CL_s: 
+BFsignal = [  -0.00,    0.00] @0.90CL, DatasetsPlugin (boundary scan)
+Standard CL_s: 
+BFsignal = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
+
+Computing CL values based on test statistic decision
+Using 2-sided test statistic
+MethodDatasetsProbScan::plotFitRes() : WARNING : No background pdf is given. Will plot S+B hypothesis with S=0.
+43.00
+saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_BFsignal_PIPIEE_1_plugin_cls_fit.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_BFsignal_PIPIEE_1_plugin_cls_expected_PIPIEE_1_.pdf
+Dataset Scan Done
+saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_BFsignal_PIPIEE_1_plugin_cls.pdf
+
+Real time 0:00:01, CP time 1.270

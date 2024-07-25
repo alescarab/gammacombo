@@ -1,0 +1,57 @@
+Building DAG of jobs...
+Using shell: /cvmfs/lhcbdev.cern.ch/conda/envs/default/2023-03-05_13-05/linux-64/bin/bash
+Provided cores: 32
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+run_plugin             1              1              1
+run_pluginbatch        5              1              1
+run_prob               2              1              1
+total                  9              1              1
+
+Select jobs to execute...
+
+[Fri Mar 17 12:00:25 2023]
+rule run_prob:
+    input: workspace.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_BF_50p_signal.root
+    log: tutorial_dataset_prob_PDF_Dataset_BF_50p_signal.log
+    jobid: 4
+    reason: Missing output files: root/scan1dDatasetsProb_PDF_Dataset_BF_50p_signal.root
+    wildcards: name=PDF_Dataset_BF, points=50, var=signal
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 17 12:00:25 2023]
+rule run_prob:
+    input: workspace.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_50p_BF_signal.root
+    log: tutorial_dataset_prob_PDF_Dataset_50p_BF_signal.log
+    jobid: 2
+    reason: Missing output files: root/scan1dDatasetsProb_PDF_Dataset_50p_BF_signal.root
+    wildcards: name=PDF_Dataset, points=50, var=BF_signal
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 17 12:00:34 2023]
+Error in rule run_prob:
+    jobid: 2
+    output: root/scan1dDatasetsProb_PDF_Dataset_50p_BF_signal.root
+    log: tutorial_dataset_prob_PDF_Dataset_50p_BF_signal.log (check log file(s) for error message)
+    shell:
+        export PATH=/usr/local/bin:/usr/bin ;set +u ;source ../scripts/setup_lxplus.sh ; bin/tutorial_dataset --var BF_signal --npoints 50 --scanrange 0:2.5.e-6 --cls 2 --CL 90 --CL 95 > tutorial_dataset_prob_PDF_Dataset_50p_BF_signal.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Fri Mar 17 12:00:34 2023]
+Error in rule run_prob:
+    jobid: 4
+    output: root/scan1dDatasetsProb_PDF_Dataset_BF_50p_signal.root
+    log: tutorial_dataset_prob_PDF_Dataset_BF_50p_signal.log (check log file(s) for error message)
+    shell:
+        export PATH=/usr/local/bin:/usr/bin ;set +u ;source ../scripts/setup_lxplus.sh ; bin/tutorial_dataset --var signal --npoints 50 --scanrange 0:2.5.e-6 --cls 2 --CL 90 --CL 95 > tutorial_dataset_prob_PDF_Dataset_BF_50p_signal.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-03-17T120023.026502.snakemake.log

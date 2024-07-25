@@ -1,0 +1,155 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+
+INFO in PDF_Datasets::initData -- Data initialized
+intitalising no multipdf. isPdfSet=0 isMultipdfSet=0.
+INFO in PDF_Datasets::initPDF -- PDF initialized
+[#1] INFO:Minization -- createNLL: caching constraint set under name CONSTR_OF_PDF_mass_model_FOR_OBS_D_M:sample_CLs with 9 entries
+[#1] INFO:Minization --  Including the following constraint terms in minimization: (BF_norm_constraint,Eff_Ratio_constraintbrem0_1516_bin1,Eff_Ratio_constraintbrem0_1718_bin1,Eff_Ratio_constraintbrem1_1516_bin1,Eff_Ratio_constraintbrem1_1718_bin1,Y_Norm_constraint_brem0_1516_525-565,Y_Norm_constraint_brem0_1718_525-565,Y_Norm_constraint_brem1_1516_525-565,Y_Norm_constraint_brem1_1718_525-565)
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state brem0_1516 (0 dataset entries)
+[#0] ERROR:Integration --  RooNumIntFactory::Init : libRooFitMore cannot be loaded. GSL integrators will not beavailable ! 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state brem0_1718 (1 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #2 for state brem1_1516 (1 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(final_model_brem1_1516_bin1) evaluation error, 
+ origin       : RooAddPdf::final_model_brem1_1516_bin1[ emodel_signal_brem1_1516_bin1 + emodel_comb_brem1_1516_bin1 + emodel_misid_brem1_1516_bin1 ]
+ message      : p.d.f value is less than zero (-0.005977), trying to recover
+ server values: !refCoefNorm=(), !pdfs=(emodel_signal_brem1_1516_bin1 = 0.0158303/1,emodel_comb_brem1_1516_bin1 = 0.00285714/1,emodel_misid_brem1_1516_bin1 = 0.00981071/1), !coefficients=()
+RooAbsTestStatistic::initSimMode: creating slave calculator #3 for state brem1_1718 (0 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(final_model_brem1_1516_bin1) evaluation error, 
+ origin       : RooAddPdf::final_model_brem1_1516_bin1[ emodel_signal_brem1_1516_bin1 + emodel_comb_brem1_1516_bin1 + emodel_misid_brem1_1516_bin1 ]
+ message      : p.d.f value is less than zero (-0.005977), trying to recover
+ server values: !refCoefNorm=(), !pdfs=(emodel_signal_brem1_1516_bin1 = 0.0158303/1,emodel_comb_brem1_1516_bin1 = 0.00285714/1,emodel_misid_brem1_1516_bin1 = 0.00981071/1), !coefficients=()
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 4 slave calculators.
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Eval -- RooRealVar::setRange(D_M) new range named 'unblind0' created with bounds [1700,2050]
+Start parameter configuration:
+
+  No start parameter file was found, will use the default values
+  configured in ParameterAbs class. Start parameter files are searched
+  in the following order:
+  1. --parfile option
+  2. default start paramter file: plots/par/tutorial_dataset_PDF_Dataset_BFsignal_start.dat
+
+=============== Global minimum (2*-Log(Likelihood)) is: 6.6765
+=============== Bkg minimum (2*-Log(Likelihood)) is: 8.47486
+Scan strategy:
+==============
+
+1. perform an initial scan
+2. perform an additional scan starting from each solution found
+
+first scan ...
+MethodDatasetsProbScan::scan1d_prob() : starting ... with 6 scanpoints...
+ 16% [========                                          ] 33% [================                                  ] 50% [=========================                         ] 66% [=================================                 ] 83% [=========================================         ]100% [==================================================]                                                          Wrote ToyTree to file
+analysing toys ...
+ 16% [========                                          ] 33% [================                                  ] 50% [=========================                         ] 66% [=================================                 ] 83% [=========================================         ]100% [==================================================]                                                          Best fit at: scanVar  = -5e-08 with Chi2Min: 6.6765
+Scan i: 0
+
+Results:
+========
+
+SOLUTION 0:
+
+  combination: PDF_Dataset
+  title:       default
+  date:        Fri Mar 24 18:46:40 2023
+  FCN: 3.33825, EDM: 1.55756e-15
+  COV quality: 3, status: 0, confirmed: yes
+
+    Parameter                      FinalValue +/- Error (HESSE)
+  ----------------------------   ---------------------------------
+                      BF_norm          4e-06 +/-          0 (const)
+                BF_norm_sigma          5e-07 +/-          0 (const)
+       Eff_Ratio_brem0_1516_bin1       0.404931 +/-          0 (const)
+       Eff_Ratio_brem0_1718_bin1       0.230003 +/-          0 (const)
+       Eff_Ratio_brem1_1516_bin1       0.314813 +/-          0 (const)
+       Eff_Ratio_brem1_1718_bin1        0.30245 +/-          0 (const)
+       Eff_Ratio_sigmabrem0_1516_bin1      0.0202465 +/-          0 (const)
+       Eff_Ratio_sigmabrem0_1718_bin1      0.0115001 +/-          0 (const)
+       Eff_Ratio_sigmabrem1_1516_bin1      0.0157407 +/-          0 (const)
+       Eff_Ratio_sigmabrem1_1718_bin1      0.0151225 +/-          0 (const)
+       Y_Norm_brem0_1516_525-565        48.8057 +/-          0 (const)
+       Y_Norm_brem0_1718_525-565        208.228 +/-          0 (const)
+       Y_Norm_brem1_1516_525-565        51.4724 +/-          0 (const)
+       Y_Norm_brem1_1718_525-565        433.027 +/-          0 (const)
+       Y_Norm_sigma_brem0_1516_525-565        11.1705 +/-          0 (const)
+       Y_Norm_sigma_brem0_1718_525-565        21.3236 +/-          0 (const)
+       Y_Norm_sigma_brem1_1516_525-565        7.66261 +/-          0 (const)
+       Y_Norm_sigma_brem1_1718_525-565        24.8819 +/-          0 (const)
+            alpha_CB1_525-565         4.0943 +/-          0 (const)
+             alpha_CB_525-565       0.605756 +/-          0 (const)
+         asym_had_bkg_525-565      -0.208104 +/-          0 (const)
+       asym_had_bkg_brem_525-565      -0.999993 +/-          0 (const)
+                   c1_525-565     0.00419715 +/-          0 (const)
+             c1_brem1_525-565      0.0530864 +/-          0 (const)
+                 frac_525-565       0.404207 +/-          0 (const)
+                mean1_525-565        1861.59 +/-          0 (const)
+                 mean_525-565        1857.89 +/-          0 (const)
+         mean_had_bkg_525-565        1817.93 +/-          0 (const)
+       mean_had_bkg_brem_525-565        1905.95 +/-          0 (const)
+                   n1_525-565        1.43343 +/-          0 (const)
+                    n_525-565        5.19025 +/-          0 (const)
+            ratio_brem1_brem0          0.074 +/-          0 (const)
+         rho0_had_bkg_525-565      0.0679663 +/-          0 (const)
+       rho0_had_bkg_brem_525-565      -0.999472 +/-          0 (const)
+         rho1_had_bkg_525-565      -0.997338 +/-          0 (const)
+       rho1_had_bkg_brem_525-565      -0.994589 +/-          0 (const)
+               sigma1_525-565        27.7246 +/-          0 (const)
+               sigma2_525-565        12.2318 +/-          0 (const)
+                sigma_525-565        7.54027 +/-          0 (const)
+        sigma_had_bkg_525-565         9.8871 +/-          0 (const)
+       sigma_had_bkg_brem_525-565        28.9023 +/-          0 (const)
+     0            BF_norm_obs          4e-06 +/- 4.99132e-07
+     1               BFsignal         -5e-08 +/- 2.64732e-08
+     2 Eff_Ratio_obsbrem0_1516_bin1       0.404931 +/-  0.0202458
+     3 Eff_Ratio_obsbrem0_1718_bin1       0.230003 +/-  0.0114999
+     4 Eff_Ratio_obsbrem1_1516_bin1       0.314813 +/-  0.0157402
+     5 Eff_Ratio_obsbrem1_1718_bin1        0.30245 +/-  0.0151221
+     6 Y_Norm_obs_brem0_1516_525-565        48.8054 +/-    11.1688
+     7 Y_Norm_obs_brem0_1718_525-565        208.228 +/-    21.3193
+     8 Y_Norm_obs_brem1_1516_525-565        51.4724 +/-    7.66186
+     9 Y_Norm_obs_brem1_1718_525-565        433.027 +/-    24.8781
+    10 n_comb_brem0_1516_bin1            0.5 +/-   0.499861
+    11 n_comb_brem1_1516_bin1            0.5 +/-   0.499861
+    12 n_misid_brem0_1516_bin1              0 +/-   0.232684
+
+Computing CL values based on test statistic decision
+Using 2-sided test statistic
+Confidence Intervals for CLs method 1:
+CONFIDENCE INTERVALS for combination PDF_Dataset
+
+MethodAbsScan::calcCLintervals(): WARNING: no solution in scanrange found, will use lowest bin!
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): WARNING: no solution in scanrange found, will use lowest bin!
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+BFsignal = [0.000000003, 0.000000055] (-0.000000050 -0.000000053 +0.000000105) @0.90CL, DatasetsProb Simplified CL_s
+
+BFsignal = [0.000000003, 0.000000074] (-0.000000050 -0.000000053 +0.000000124) @0.95CL, DatasetsProb Simplified CL_s
+
+
+
+
+BFsignal =  -0.000
+Simplified CL_s: 
+BFsignal = [   0.00,    0.00] @0.90CL, DatasetsProb (boundary scan)
+Simplified CL_s: 
+BFsignal = [   0.00,    0.00] @0.95CL, DatasetsProb (boundary scan)
+
+saving parameters to: plots/par/tutorial_dataset_PDF_Dataset_BFsignal.dat
+MethodDatasetsProbScan::plotFitRes() : WARNING : No background pdf is given. Will plot S+B hypothesis with S=0.
+2
+saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_BFsignal_cls_fit.pdf
+Dataset Scan Done
+saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_BFsignal_cls.pdf
+
+Real time 0:00:00, CP time 0.660

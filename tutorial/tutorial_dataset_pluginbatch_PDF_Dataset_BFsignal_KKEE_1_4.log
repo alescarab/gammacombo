@@ -1,0 +1,100 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+
+INFO in PDF_Datasets::initData -- Data initialized
+intitalising no multipdf. isPdfSet=0 isMultipdfSet=0.
+INFO in PDF_Datasets::initPDF -- PDF initialized
+[#1] INFO:Minization -- createNLL: caching constraint set under name CONSTR_OF_PDF_mass_model_FOR_OBS_D_M:sample_CLs with 9 entries
+[#1] INFO:Minization --  Including the following constraint terms in minimization: (BF_norm_constraint,Eff_Ratio_constraintbrem0_1516_bin1,Eff_Ratio_constraintbrem0_1718_bin1,Eff_Ratio_constraintbrem1_1516_bin1,Eff_Ratio_constraintbrem1_1718_bin1,Y_Norm_constraint_brem0_1516_525-565,Y_Norm_constraint_brem0_1718_525-565,Y_Norm_constraint_brem1_1516_525-565,Y_Norm_constraint_brem1_1718_525-565)
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state brem0_1516 (0 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state brem0_1718 (5 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #2 for state brem1_1516 (1 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #3 for state brem1_1718 (4 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 4 slave calculators.
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1718_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1718_525-565_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Eval -- RooRealVar::setRange(D_M) new range named 'unblind0' created with bounds [1700,2050]
+=============== Global minimum (2*-Log(Likelihood)) is: 124.368
+=============== Bkg minimum (2*-Log(Likelihood)) is: 124.368
+loading scanner: plots/scanner/tutorial_dataset_scanner_PDF_Dataset_DatasetsProb_BFsignal.root
+analysing toys ...
+  4%
+  8%
+ 12%
+ 16%
+ 20%
+ 24%
+ 28%
+ 32%
+ 36%
+ 40%
+ 44%
+ 48%
+ 52%
+ 56%
+ 60%
+ 64%
+ 68%
+ 72%
+ 76%
+ 80%
+ 84%
+ 88%
+ 92%
+ 96%
+100%
+Best fit at: scanVar  = 7.15705e-18 with Chi2Min: 124.368
+=============== Global Minimum (2*-Log(Likelihood)) is: 124.368
+=============== Bkg minimum (2*-Log(Likelihood)) is: 124.368
+++++ > Fit not converged: 
+++++ > edm: 0.00366576
+++++ > status: -60
+MethodDatasetsPluginScan::scan1d_plugin() : starting ... with 50 scanpoints...
+WARNING: For CLs option the first point in the scan should be zero, not: 1e-09
+  4%
++++++ > still negative test statistic after whole procedure!! 
++++++ > try to fit with different starting values
++++++ > dChi2: -3.05176e-05
++++++ > dChi2PDF: -3.05176e-05
++++++ > Improvement found in extra fit: Nll before: 46.484 after: 46.484
++++++ > new minNll value: 46.484
+  8%
+ 12%
+ 16%
+ 20%
+ 24%
+PDF_Datasets::fit(): Imperfect fit! Fit status 0 cov Qual 2
+PDF_Datasets::fit(): Imperfect fit! Fit status 0 cov Qual 2
+ 28%
+ 32%
+PDF_Datasets::fit(): Imperfect fit! Fit status 0 cov Qual 2
+ 36%
+ 40%
+ 44%
+ 48%
+ 52%
+ 56%
+ 60%
+ 64%
+ 68%
+ 72%
+ 76%
+ 80%
+ 84%
+ 88%
+ 92%
+ 96%
+100%
+Dataset Scan Done
+
+Real time 0:08:27, CP time 506.880

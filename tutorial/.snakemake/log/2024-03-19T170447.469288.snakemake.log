@@ -1,0 +1,128 @@
+Building DAG of jobs...
+Using shell: /cvmfs/lhcbdev.cern.ch/conda/envs/default/2024-03-12_19-29/linux-64/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+build_wspc             3
+run_plugin             8
+run_pluginbatch       33
+run_prob               5
+total                 50
+
+Select jobs to execute...
+
+[Tue Mar 19 17:04:48 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_0_0.log
+    jobid: 40
+    reason: Forced execution
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=0, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Tue Mar 19 17:14:42 2024]
+Finished job 40.
+1 of 50 steps (2%) done
+Select jobs to execute...
+
+[Tue Mar 19 17:14:43 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_4_3.log
+    jobid: 37
+    reason: Updated input files: root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=4, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Tue Mar 19 17:22:59 2024]
+Finished job 37.
+2 of 50 steps (4%) done
+Select jobs to execute...
+
+[Tue Mar 19 17:22:59 2024]
+rule run_prob:
+    input: workspace_PIPIEE_3.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    log: tutorial_dataset_prob_PDF_Dataset_50p_BFsignal_PIPIEE_3.log
+    jobid: 12
+    reason: Updated input files: workspace_PIPIEE_3.root
+    wildcards: name=PDF_Dataset, points=50, var=BFsignal, decay=PIPIEE, bin_number=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Tue Mar 19 17:23:01 2024]
+Finished job 12.
+3 of 50 steps (6%) done
+Select jobs to execute...
+
+[Tue Mar 19 17:23:01 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_4_2.log
+    jobid: 36
+    reason: Updated input files: root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_4.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=4, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Tue Mar 19 17:31:12 2024]
+Finished job 36.
+4 of 50 steps (8%) done
+Select jobs to execute...
+
+[Tue Mar 19 17:31:12 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_KKEE_0_run3.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_KKEE_0_3.log
+    jobid: 44
+    reason: Updated input files: root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_KKEE_0.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=KKEE, nbin=0, jobnum=3
+    resources: tmpdir=/tmp/ascarabo
+
+[Tue Mar 19 17:41:08 2024]
+Finished job 44.
+5 of 50 steps (10%) done
+Select jobs to execute...
+
+[Tue Mar 19 17:41:08 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_0.log
+    jobid: 29
+    reason: Input files updated by another job: root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=3, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+[Tue Mar 19 17:48:07 2024]
+Finished job 29.
+6 of 50 steps (12%) done
+Select jobs to execute...
+
+[Tue Mar 19 17:48:07 2024]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_2.log
+    jobid: 31
+    reason: Input files updated by another job: root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    wildcards: name=PDF_Dataset, var=BFsignal, decay=PIPIEE, nbin=3, jobnum=2
+    resources: tmpdir=/tmp/ascarabo
+
+Terminating processes on user request, this might take some time.
+[Tue Mar 19 17:54:11 2024]
+Error in rule run_pluginbatch:
+    jobid: 31
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_50p_BFsignal_PIPIEE_3.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_3_run2.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_2.log (check log file(s) for error details)
+    shell:
+         bin/tutorial_dataset --var BFsignal --npoints 50 --scanrange 1e-8:1e-6 -a pluginbatch --ntoys 100 --nrun 2 --decay PIPIEE --bin 3  > tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_3_2.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2024-03-19T170447.469288.snakemake.log

@@ -1,0 +1,2 @@
+SyntaxError in line 52 of /afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile:
+Expecting rule keyword, comment or docstrings inside a rule definition. (Snakefile, line 52)

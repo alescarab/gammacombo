@@ -533,6 +533,7 @@ void OneMinusClPlot::scan1dCLsPlot(MethodAbsScan *s, bool smooth, bool obsError)
   // protect against smoothing over 1
   for (int i=0; i<gExp->GetN(); i++) {
     gExp->GetPoint(i,x,y); gExp->SetPoint(i,x,TMath::Min(y,1.));
+	if(y < 0.12 && y > 0.03) std::cout<<" CL at "<<std::setprecision(11)<<y<<" BF at "<<x<<std::endl;
     gErr1Up->GetPoint(i,x,y); gErr1Up->SetPoint(i,x,TMath::Min(y,1.));
     gErr1Dn->GetPoint(i,x,y); gErr1Dn->SetPoint(i,x,TMath::Min(y,1.));
     gErr2Up->GetPoint(i,x,y); gErr2Up->SetPoint(i,x,TMath::Min(y,1.));
@@ -590,9 +591,9 @@ void OneMinusClPlot::scan1dCLsPlot(MethodAbsScan *s, bool smooth, bool obsError)
 
   // Legend:
 	// make the legend short, the text will extend over the boundary, but the symbol will be shorter
-  float legendXmin = 0.68 ;
+  float legendXmin = 0.48 ;
   float legendYmin = 0.58 ;
-  float legendXmax = legendXmin + 0.25 ;
+  float legendXmax = legendXmin + 0.35 ;
   float legendYmax = legendYmin + 0.22 ;
 	TLegend* leg = new TLegend(legendXmin,legendYmin,legendXmax,legendYmax);
 	leg->SetFillColor(kWhite);
@@ -601,6 +602,8 @@ void OneMinusClPlot::scan1dCLsPlot(MethodAbsScan *s, bool smooth, bool obsError)
 	leg->SetBorderSize(0);
 	leg->SetTextFont(font);
 	leg->SetTextSize(legendsize*0.75);
+	TString mee_bin[5] = {"211-525","525-565","565-950","950-1100","> 1100"};
+	leg->AddEntry("","m(ee) "+mee_bin[arg->bin]+" MeV/c^{2}","");
 
   if (obsError) leg->AddEntry( gObs, "Observed", "LEP" );
   else          leg->AddEntry( gObs, "Observed", "LP"  );
@@ -635,8 +638,54 @@ void OneMinusClPlot::scan1dCLsPlot(MethodAbsScan *s, bool smooth, bool obsError)
   m_mainCanvas->Update();
   m_mainCanvas->Modified();
   m_mainCanvas->Show();
-  savePlot( m_mainCanvas, name+"_expected"+arg->plotext );
+  savePlot( m_mainCanvas, Form(name+"_expected_"+ arg->decay+"_%i_" +arg->plotext, arg->bin) );
   m_mainCanvas->SetTicks(false);
+
+
+  m_mainCanvas_noObs->cd();
+
+  TLegend* leg2 = new TLegend(legendXmin,legendYmin,legendXmax,legendYmax);
+	leg2->SetFillColor(kWhite);
+	leg2->SetFillStyle(0);
+	leg2->SetLineColor(kWhite);
+	leg2->SetBorderSize(0);
+	leg2->SetTextFont(font);
+	leg2->SetTextSize(legendsize*0.75);
+
+	leg2->AddEntry("","m(ee) "+mee_bin[arg->bin]+" MeV/c^{2}","");
+
+  leg2->AddEntry( gExp, "Expected", "L" );
+  leg2->AddEntry( gErr1, "#pm 1#sigma", "F");
+  leg2->AddEntry( gErr2, "#pm 2#sigma", "F");
+
+  haxes->Draw("AXIS+");
+  gErr2->Draw("E3same");
+  gErr1->Draw("E3same");
+  gExp->Draw("Lsame");
+  leg2->Draw("same");
+
+  if(arg->CL.size()==0){
+  	drawCLguideLine_noObs(0.1);
+  }
+  else{
+  	drawCLguideLines_noObs();
+  }
+
+  // draw the solution
+  if(arg->plotsolutions.size()>0 && arg->plotsolutions[0]!=0) drawVerticalLine(xCentral, kBlack, kDashed);
+
+  if ( arg->plotprelim || arg->plotunoff ) yGroup = 0.8;
+  drawGroup_noObs(yGroup);
+
+
+
+  m_mainCanvas_noObs->SetTicks();
+  m_mainCanvas_noObs->RedrawAxis();
+  m_mainCanvas_noObs->Update();
+  m_mainCanvas_noObs->Modified();
+  m_mainCanvas_noObs->Show();
+  savePlot( m_mainCanvas_noObs, Form(name+"_expected_noObs_"+ arg->decay+"_%i_" +arg->plotext, arg->bin) );
+  m_mainCanvas_noObs->SetTicks(false);
 }
 
 void OneMinusClPlot::drawVerticalLine(float x, int color, int style)
@@ -823,6 +872,63 @@ void OneMinusClPlot::drawCLguideLine(float pvalue)
 	l->Draw();
 }
 
+
+///
+/// Draw a horizontal line at given p-value, put a
+/// label on top of it stating the corresponding CL.
+///
+void OneMinusClPlot::drawCLguideLine_noObs(float pvalue)
+{
+	m_mainCanvas_noObs->cd();
+	m_mainCanvas_noObs->Update();
+	float ymin = gPad->GetUymin();
+	float ymax = gPad->GetUymax();
+	float xmin = gPad->GetUxmin();
+	float xmax = gPad->GetUxmax();
+
+	float labelPos = xmin+(xmax-xmin)*0.10;
+	if ( arg->isQuickhack(2) ) labelPos = xmin+(xmax-xmin)*0.55;
+  	if ( arg->isQuickhack(23) ) labelPos = xmin+(xmax-xmin)*0.8;
+  	if ( arg->isQuickhack(31) ) labelPos = xmin+(xmax-xmin)*0.01;
+
+  	if (arg->CL.size()>1){
+  		std::sort(arg->CL.begin(),arg->CL.end());
+  		for ( int i =0; i<arg->CL.size(); i++){
+  			if(abs((1-pvalue) - arg->CL[i]/100.)<0.0001 && abs(arg->CL[i]-arg->CL[i-1])<8){
+  				if(!arg->isQuickhack(23)) labelPos= labelPos+(xmax-xmin)*0.15;
+  				else labelPos= labelPos-(xmax-xmin)*0.15;
+  			}
+  		}
+  	}
+
+	float labelPosYmin = 0;
+	float labelPosYmax = 0;
+
+	if ( arg->plotlog ) {
+		labelPosYmin = pvalue;
+		labelPosYmax = labelPosYmin * 2.;
+	}
+	else {
+		labelPosYmin = pvalue + 0.02;
+		labelPosYmax = labelPosYmin + 0.05;
+	}
+
+	TPaveText *t = new TPaveText(labelPos, labelPosYmin, labelPos+(xmax-xmin)*0.5, labelPosYmax, "BR");
+	t->SetBorderSize(0);
+	t->SetFillStyle(0);
+	t->SetTextAlign(12);
+	t->SetTextFont(font);
+	t->SetTextSize(labelsize);
+	t->AddText(Form("%.1f%%",(1.-pvalue)*100.));
+	t->Draw();
+
+	TLine* l = new TLine(xmin, pvalue, xmax, pvalue);
+	l->SetLineWidth(1);
+	l->SetLineColor(kBlack);
+	l->SetLineStyle(kDotted);
+	l->Draw();
+}
+
 ///
 /// Draw 1, 2, and 3 sigma lines.
 ///
@@ -854,6 +960,34 @@ void OneMinusClPlot::drawCLguideLines()
 }
 
 
+void OneMinusClPlot::drawCLguideLines_noObs()
+{
+	if ( arg->CL.size()==0){
+		drawCLguideLine_noObs(0.31731);
+		drawCLguideLine_noObs(4.550026e-2);
+		if ( arg->plotlog ){
+			drawCLguideLine_noObs(2.7e-3);
+			if ( arg->plotymin < 6.3e-5 ) {
+	      		drawCLguideLine_noObs(6.3e-5);
+	    	}
+		}
+	}
+	if ( arg->CL.size()>0){
+		for ( auto level : arg->CL ){
+			if ( level < 99 ){
+				drawCLguideLine_noObs(1. - level/100.);
+			}
+			else if ( arg->plotlog ){
+				if ( arg->plotymin > 6.3e-5 && level < 99.9937){
+					continue;
+				}
+				drawCLguideLine_noObs(1. - level/100.);
+			}
+		}
+	}
+}
+
+
 void OneMinusClPlot::Draw()
 {
   bool plotSimple = false;//arg->debug; ///< set to true to use a simpler plot function
@@ -869,6 +1003,10 @@ void OneMinusClPlot::Draw()
 		if ( !this->name.EndsWith("_log") ) this->name = this->name + "_log";
 	}
 	m_mainCanvas->cd();
+
+	if ( m_mainCanvas_noObs==0 ){
+		m_mainCanvas_noObs = newNoWarnTCanvas(name+getUniqueRootName()+"_noObs", title+"_noObs", 800, arg->square ? 800 : 600);
+		m_mainCanvas_noObs->SetRightMargin(0.1);}
 
   // plot the CLs
   for ( int i = 0; i < scanners.size(); i++ ) if (do_CLs[i]==2) scan1dCLsPlot(scanners[i],arg->nsmooth);

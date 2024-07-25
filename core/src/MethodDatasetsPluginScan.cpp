@@ -335,8 +335,9 @@ TChain* MethodDatasetsPluginScan::readFiles(int runMin, int runMax, int &nFilesR
     TChain *c = new TChain("plugin");
     int _nFilesRead = 0;
 
-    TString dirname = "root/scan1dDatasetsPlugin_" + this->pdf->getName() + "_" + scanVar1;
-    TString fileNameBase = (fileNameBaseIn.EqualTo("default")) ? dirname + "/scan1dDatasetsPlugin_" + this->pdf->getName() + "_" + scanVar1 + "_run" : fileNameBaseIn;
+    TString dirname = Form("root/scan1dDatasetsPlugin_" + this->pdf->getName() + "_" + scanVar1 +"_"+arg->decay +"_%i", arg->bin);
+    
+    TString fileNameBase = (fileNameBaseIn.EqualTo("default")) ? Form(dirname + "/scan1dDatasetsPlugin_" + this->pdf->getName() + "_" + scanVar1 +"_"+arg->decay +"_%i_run", arg->bin) : fileNameBaseIn;
 
     if (explicitInputFile) {
         for (TString &file : inputFiles) {
@@ -1130,7 +1131,7 @@ int MethodDatasetsPluginScan::scan1d(int nRun)
     float parameterToScan_max = hCL->GetXaxis()->GetXmax();
     double freeDataFitValue = w->var(scanVar1)->getVal();
 
-    TString probResName = Form("root/scan1dDatasetsProb_" + this->pdf->getName() + "_%ip" + "_" + scanVar1 + ".root", arg->npoints1d);
+    TString probResName = Form("root/scan1dDatasetsProb_" + this->pdf->getName() + "_%ip" + "_" + scanVar1 + "_" + arg->decay + "_%i.root", arg->npoints1d,  arg->bin);
     TFile* probResFile = TFile::Open(probResName);
     if (!probResFile) {
         std::cout << "ERROR in MethodDatasetsPluginScan::scan1d - Prob scan result file not found in " << std::endl
@@ -1141,9 +1142,9 @@ int MethodDatasetsPluginScan::scan1d(int nRun)
     }
 
     // Define outputfile
-    TString dirname = "root/scan1dDatasetsPlugin_" + this->pdf->getName() + "_" + scanVar1;
+    TString dirname = Form("root/scan1dDatasetsPlugin_" + this->pdf->getName() + "_" + scanVar1 +"_"+arg->decay +"_%i", arg->bin);
     system("mkdir -p " + dirname);
-    TFile* outputFile = new TFile(Form(dirname + "/scan1dDatasetsPlugin_" + this->pdf->getName() + "_" + scanVar1 + "_run%i.root", nRun), "RECREATE");
+    TFile* outputFile = new TFile(Form(dirname + "/scan1dDatasetsPlugin_" + this->pdf->getName() + "_" + scanVar1 + "_"+arg->decay +"_%i_run%i.root", arg->bin, nRun), "RECREATE");
 
     // Set up toy root tree
     ToyTree toyTree(this->pdf, arg);

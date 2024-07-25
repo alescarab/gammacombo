@@ -19,65 +19,103 @@
 
 # setup the environment on lxplus, needed for every rule, since the rules can run independently
 SETUP_LXPLUS_PREFIX = ' ;'.join([
-  'export PATH=/usr/local/bin:/usr/bin',
-  'set +u',
-  'source ../scripts/setup_lxplus.sh',
+  # 'export PATH=/usr/local/bin:/usr/bin',
+  # 'set +u',
+  # 'source ../scripts/setup_lxplus.sh',
   # 'set -u',
   ' ',
   ])
 
 # some parameter definitions to generalise the snakefile (can be specified in a separate config if desired)
 combiner_name = "PDF_Dataset" # default name, can be defined in "tutorial_dataset.cpp"
+
+# scanvar = "branchingRatio"
+scanvar = "BFsignal"
+scanrange = "1e-8:1e-6"
+# scanrange = [["1e-9:5e-7","1e-9:4e-7","1e-8:1e-6","1e-8:1e-6","1e-9:3e-7"],["1e-9:3e-7","1e-9:3e-7","1e-9:3e-7","1e-8:1e-6","1e-8:1e-6"]]
+# dictdecay = {
+#   "PIPIEE": 0,
+#   "KKEE": 1}
+
+# nscanpoints = 50
+# ntoys_per_run = 100
+# nruns = 5
+
 nscanpoints = 50
-scanvar = "branchingRatio"
-scanrange = "0:1.e-6"
 ntoys_per_run = 100
 nruns = 5
+
+decay = "PIPIEE"
+bin_number = 0
+
+number_of_bins_pipi = 5
+number_of_bins_kk = 3
 
 
 
 rule all:
   input:
-    'workspace.root',
-    'root/scan1dDatasetsProb_{combiner_name}_{nscanpoints}p_{scanvar}.root'.format(combiner_name=combiner_name, nscanpoints=nscanpoints, scanvar=scanvar),
-    expand('root/scan1dDatasetsPlugin_{combiner_name}_{scanvar}/scan1dDatasetsPlugin_{combiner_name}_{scanvar}_run{jobnum}.root', combiner_name=combiner_name, scanvar=scanvar, jobnum=list(range(nruns))),
-    'plots/cl/clintervals_{combiner_name}_{scanvar}_DatasetsPlugin.py'.format(combiner_name=combiner_name, scanvar=scanvar),
-    'plots/cl/clintervals_{combiner_name}_{scanvar}_DatasetsPlugin_CLs2.py'.format(combiner_name=combiner_name, scanvar=scanvar),
-    'plots/cl/clintervals_{combiner_name}_{scanvar}_DatasetsPlugin_expected_standardCLs.py'.format(combiner_name=combiner_name, scanvar=scanvar)
+    [f"workspace_PIPIEE_{str(x)}.root" for x in range(0,number_of_bins_pipi)],
+    [f"workspace_KKEE_{str(x)}.root" for x in range(0,number_of_bins_kk)],
+
+    [f'root/scan1dDatasetsProb_{combiner_name}_{nscanpoints}p_{scanvar}_PIPIEE_{str(x)}.root'.format(combiner_name=combiner_name, nscanpoints=nscanpoints, scanvar=scanvar) for x in range(0,number_of_bins_pipi)],
+    expand('root/scan1dDatasetsPlugin_{combiner_name}_{scanvar}_PIPIEE_{nbin}/scan1dDatasetsPlugin_{combiner_name}_{scanvar}_PIPIEE_{nbin}_run{jobnum}.root', nbin=list(range(number_of_bins_pipi)),combiner_name=combiner_name, scanvar=scanvar, jobnum=list(range(nruns))),
+    [f'plots/cl/clintervals_{combiner_name}_{scanvar}_PIPIEE_{str(x)}_DatasetsPlugin.py'.format(combiner_name=combiner_name, scanvar=scanvar) for x in range(0,number_of_bins_pipi)],
+    [f'plots/cl/clintervals_{combiner_name}_{scanvar}_PIPIEE_{str(x)}_DatasetsPlugin_CLs2.py'.format(combiner_name=combiner_name, scanvar=scanvar) for x in range(0,number_of_bins_pipi)],
+    [f'plots/cl/clintervals_{combiner_name}_{scanvar}_PIPIEE_{str(x)}_DatasetsPlugin_expected_standardCLs.py'.format(combiner_name=combiner_name, scanvar=scanvar) for x in range(0,number_of_bins_pipi)],
+    # [f'plots/cl/clintervals_{combiner_name}_{scanvar}_PIPIEE_{str(x)}_DatasetsPlugin_noCLs.py'.format(combiner_name=combiner_name, scanvar=scanvar) for x in range(0,number_of_bins_pipi)],
+
+    [f'root/scan1dDatasetsProb_{combiner_name}_{nscanpoints}p_{scanvar}_KKEE_{str(x)}.root'.format(combiner_name=combiner_name, nscanpoints=nscanpoints, scanvar=scanvar) for x in range(0,number_of_bins_kk)],
+    expand('root/scan1dDatasetsPlugin_{combiner_name}_{scanvar}_KKEE_{nbin}/scan1dDatasetsPlugin_{combiner_name}_{scanvar}_KKEE_{nbin}_run{jobnum}.root', nbin=list(range(number_of_bins_kk)),combiner_name=combiner_name, scanvar=scanvar, jobnum=list(range(nruns))),
+    [f'plots/cl/clintervals_{combiner_name}_{scanvar}_KKEE_{str(x)}_DatasetsPlugin.py'.format(combiner_name=combiner_name, scanvar=scanvar) for x in range(0,number_of_bins_kk)],
+    [f'plots/cl/clintervals_{combiner_name}_{scanvar}_KKEE_{str(x)}_DatasetsPlugin_CLs2.py'.format(combiner_name=combiner_name, scanvar=scanvar) for x in range(0,number_of_bins_kk)],
+    [f'plots/cl/clintervals_{combiner_name}_{scanvar}_KKEE_{str(x)}_DatasetsPlugin_expected_standardCLs.py'.format(combiner_name=combiner_name, scanvar=scanvar) for x in range(0,number_of_bins_kk)],
+    # [f'plots/cl/clintervals_{combiner_name}_{scanvar}_KKEE_{str(x)}_DatasetsPlugin_noCLs.py'.format(combiner_name=combiner_name, scanvar=scanvar) for x in range(0,number_of_bins_kk)],
+
+    
+
+    
+
 
 rule build_wspc:
   output:
-    'workspace.root'
+    'workspace_{decay}_{bin_number}.root'
+    # 'workspace.root'
 
-  threads: 1  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
+  threads: 32  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
   # resources:
   #     request_memory = 1024,  # in mb, more than enough
   #     MaxRunHours = 1,  # defining the queue, 1 hour is more than enough
   #     request_disk = 1024000  # in kb, more than enough
   log:
-    'build_workspace.log'       
+    'build_workspace_{decay}_{bin_number}.log'       
   shell:
     SETUP_LXPLUS_PREFIX+
       ' '.join([
           'bin/tutorial_dataset_build_workspace',
+          '--decay {wildcards.decay}',
+          '--bin {wildcards.bin_number}',
           '> {log}'
       ])
 
 rule run_prob:
   input:
-    'workspace.root'
+    # 'workspace.root'
+    'workspace_{decay}_{bin_number}.root'
   output:
-    'root/scan1dDatasetsProb_{name}_{points}p_{var}.root'
+    'root/scan1dDatasetsProb_{name}_{points}p_{var}_{decay}_{bin_number}.root'
 
 
-  threads: 1  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
+  threads: 32  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
   # resources:
   #     request_memory = 1024,  # in mb, more than enough
   #     MaxRunHours = 1,  # defining the queue, 1 hour is more than enough
   #     request_disk = 1024000   # in kb, more than enough
   log:
-    'tutorial_dataset_prob_{name}_{points}p_{var}.log'       
+    'tutorial_dataset_prob_{name}_{points}p_{var}_{decay}_{bin_number}.log'       
   shell:
+    # idecay = dictdecay({wildcards.decay})
+    # ibin = int()
     SETUP_LXPLUS_PREFIX+
       ' '.join([
           'bin/tutorial_dataset',
@@ -87,56 +125,67 @@ rule run_prob:
           '--cls 2', # calculates the cls method
           '--CL 90', # calculates the limit at 90% CL
           '--CL 95', # calculates the limit at 95% CL
+          '--decay {wildcards.decay}',
+          '--bin {wildcards.bin_number}',
+          '--teststat 2',
           '> {log}'
       ])
 
 rule run_pluginbatch:
   input:
+    # 'workspace_{decay}_{bin_number}.root'
     'workspace.root',
-    'root/scan1dDatasetsProb_{name}_'+str(nscanpoints)+'p_{var}.root',
+    'root/scan1dDatasetsProb_{name}_'+str(nscanpoints)+'p_{var}_{decay}_{nbin}.root',
 
   output:
-    'root/scan1dDatasetsPlugin_{name}_{var}/scan1dDatasetsPlugin_{name}_{var}_run{jobnum}.root'
+    'root/scan1dDatasetsPlugin_{name}_{var}_{decay}_{nbin}/scan1dDatasetsPlugin_{name}_{var}_{decay}_{nbin}_run{jobnum}.root'
 
-  threads: 1  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
+  threads: 32  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
   # resources:
   #     request_memory = 1024, # in mb, more than enough
   #     MaxRunHours = 1,  # defining the queue, the batch scan can be quite time consuming (very problem dependent), here 1h is enough
   #     request_disk = 1024000  # in kb, more than enough
   log:
-    'tutorial_dataset_pluginbatch_{name}_{var}_{jobnum}.log'       
+    'tutorial_dataset_pluginbatch_{name}_{var}_{decay}_{nbin}_{jobnum}.log'       
   shell:
     SETUP_LXPLUS_PREFIX+
       ' '.join([
           'bin/tutorial_dataset',
-          '--var {wildcards.var}',
+          # '--var {wildcards.var}',
+          '--var {scanvar}',
           '--npoints '+str(nscanpoints),
           '--scanrange '+scanrange,
           '-a pluginbatch',
           '--ntoys '+str(ntoys_per_run),
-          '--nrun {wildcards.jobnum}'
+          '--nrun {wildcards.jobnum}',
+          '--decay {wildcards.decay}',
+          '--bin {wildcards.nbin}',
+          '--teststat 2',
           ' > {log}'
       ])
 
 
 rule run_plugin:
   input:
+    # 'workspace_{decay}_{bin_number}.root'
     'workspace.root',
-    'root/scan1dDatasetsProb_{name}_'+str(nscanpoints)+'p_{var}.root',
-    expand('root/scan1dDatasetsPlugin_{name}_{var}/scan1dDatasetsPlugin_{name}_{var}_run{jobnum}.root',name=combiner_name, var=scanvar, jobnum=list(range(nruns)))
+    'root/scan1dDatasetsProb_{name}_'+str(nscanpoints)+'p_{var}_{decay}_{bin_number}.root',
+    expand('root/scan1dDatasetsPlugin_{name}_{var}_{decay}_{bin_number}/scan1dDatasetsPlugin_{name}_{var}_{decay}_{bin_number}_run{jobnum}.root',name=combiner_name, var=scanvar,decay="PIPIEE",bin_number=list(range(number_of_bins_pipi)), jobnum=list(range(nruns))),
+    expand('root/scan1dDatasetsPlugin_{name}_{var}_{decay}_{bin_number}/scan1dDatasetsPlugin_{name}_{var}_{decay}_{bin_number}_run{jobnum}.root',name=combiner_name, var=scanvar,decay="KKEE",bin_number=list(range(number_of_bins_kk)), jobnum=list(range(nruns)))
+
 
   output:
-    'plots/cl/clintervals_{name}_{var}_DatasetsPlugin.py',
-    'plots/cl/clintervals_{name}_{var}_DatasetsPlugin_CLs2.py',
-    'plots/cl/clintervals_{name}_{var}_DatasetsPlugin_expected_standardCLs.py'
+    'plots/cl/clintervals_{name}_{var}_{decay}_{bin_number}_DatasetsPlugin.py',
+    'plots/cl/clintervals_{name}_{var}_{decay}_{bin_number}_DatasetsPlugin_CLs2.py',
+    'plots/cl/clintervals_{name}_{var}_{decay}_{bin_number}_DatasetsPlugin_expected_standardCLs.py'
 
-  threads: 1  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
+  threads: 32  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
   # resources:
   #     request_memory = 1024,  # in mb, more than enough
   #     MaxRunHours = 1,  # defining the queue, 1 hour is more than enough
   #     request_disk = 1024000  # in kb, more than enough
   log:
-    'tutorial_dataset_plugin_{name}_{var}.log'       
+    'tutorial_dataset_plugin_{name}_{var}_{decay}_{bin_number}.log'       
   shell:
     SETUP_LXPLUS_PREFIX+
       ' '.join([
@@ -149,5 +198,44 @@ rule run_plugin:
           '--cls 2', # calculates the cls method
           '--CL 90', # calculates the limit at 90% CL
           '--CL 95', # calculates the limit at 95% CL
+          '--decay {wildcards.decay}',
+          '--bin {wildcards.bin_number}',
+          '--teststat 2',
+          '> {log}'
+      ])
+
+
+rule run_plugin_no_cls:
+  input:
+    'workspace_{decay}_{bin_number}.root'
+    'root/scan1dDatasetsProb_{name}_'+str(nscanpoints)+'p_{var}_{decay}_{bin_number}.root',
+    expand('root/scan1dDatasetsPlugin_{name}_{var}_{decay}_{bin_number}/scan1dDatasetsPlugin_{name}_{var}_{decay}_{bin_number}_run{jobnum}.root',name=combiner_name, var=scanvar,decay="PIPIEE",bin_number=list(range(number_of_bins_pipi)), jobnum=list(range(nruns))),
+    expand('root/scan1dDatasetsPlugin_{name}_{var}_{decay}_{bin_number}/scan1dDatasetsPlugin_{name}_{var}_{decay}_{bin_number}_run{jobnum}.root',name=combiner_name, var=scanvar,decay="KKEE",bin_number=list(range(number_of_bins_kk)), jobnum=list(range(nruns)))
+
+
+  output:
+    'plots/cl/clintervals_{name}_{var}_{decay}_{bin_number}_DatasetsPlugin_noCLs.py',
+    # 'plots/cl/clintervals_{name}_{var}_{decay}_{bin_number}_DatasetsPlugin_CLs2.py',
+    # 'plots/cl/clintervals_{name}_{var}_{decay}_{bin_number}_DatasetsPlugin_expected_standardCLs.py'
+
+  threads: 32  # this will set request_cpus to 1, this is also used when not submitting to the cluster, always set the correct value here
+  # resources:
+  #     request_memory = 1024,  # in mb, more than enough
+  #     MaxRunHours = 1,  # defining the queue, 1 hour is more than enough
+  #     request_disk = 1024000  # in kb, more than enough
+  log:
+    'tutorial_dataset_plugin_{name}_{var}_{decay}_{bin_number}_no_CLs.log'       
+  shell:
+    SETUP_LXPLUS_PREFIX+
+      ' '.join([
+          'bin/tutorial_dataset',
+          '--var {wildcards.var}',
+          '--npoints '+str(nscanpoints),
+          '--scanrange '+scanrange,
+          '-a plugin',
+          '-j 0-'+str(nruns-1),
+          '--decay {wildcards.decay}',
+          '--bin {wildcards.bin_number}',
+          '--teststat 2',
           '> {log}'
       ])

@@ -1,0 +1,128 @@
+Building DAG of jobs...
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+build_wspc             5              1              1
+run_pluginbatch        5              1              1
+run_prob               5              1              1
+total                 16              1              1
+
+
+[Fri Mar 24 18:19:19 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_0.root
+    log: build_workspace_PIPIEE_0.log
+    jobid: 1
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=0
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_1.root
+    log: build_workspace_PIPIEE_1.log
+    jobid: 2
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=1
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_2.root
+    log: build_workspace_PIPIEE_2.log
+    jobid: 3
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=2
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_3.root
+    log: build_workspace_PIPIEE_3.log
+    jobid: 4
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=3
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_4.root
+    log: build_workspace_PIPIEE_4.log
+    jobid: 5
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=4
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule run_prob:
+    input: workspace_PIPIEE_0.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_0.root
+    log: tutorial_dataset_prob_PDF_Dataset_3p_BFsignal_PIPIEE_0.log
+    jobid: 6
+    reason: Missing output files: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_0.root; Input files updated by another job: workspace_PIPIEE_0.root
+    wildcards: name=PDF_Dataset, points=3, var=BFsignal, decay=PIPIEE, bin_number=0
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule run_prob:
+    input: workspace_PIPIEE_1.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_1.root
+    log: tutorial_dataset_prob_PDF_Dataset_3p_BFsignal_PIPIEE_1.log
+    jobid: 7
+    reason: Missing output files: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_1.root; Input files updated by another job: workspace_PIPIEE_1.root
+    wildcards: name=PDF_Dataset, points=3, var=BFsignal, decay=PIPIEE, bin_number=1
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule run_prob:
+    input: workspace_PIPIEE_2.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_2.root
+    log: tutorial_dataset_prob_PDF_Dataset_3p_BFsignal_PIPIEE_2.log
+    jobid: 8
+    reason: Missing output files: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_2.root; Input files updated by another job: workspace_PIPIEE_2.root
+    wildcards: name=PDF_Dataset, points=3, var=BFsignal, decay=PIPIEE, bin_number=2
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule run_prob:
+    input: workspace_PIPIEE_3.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_3.root
+    log: tutorial_dataset_prob_PDF_Dataset_3p_BFsignal_PIPIEE_3.log
+    jobid: 9
+    reason: Input files updated by another job: workspace_PIPIEE_3.root
+    wildcards: name=PDF_Dataset, points=3, var=BFsignal, decay=PIPIEE, bin_number=3
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule run_prob:
+    input: workspace_PIPIEE_4.root
+    output: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_4.root
+    log: tutorial_dataset_prob_PDF_Dataset_3p_BFsignal_PIPIEE_4.log
+    jobid: 10
+    reason: Missing output files: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_4.root; Input files updated by another job: workspace_PIPIEE_4.root
+    wildcards: name=PDF_Dataset, points=3, var=BFsignal, decay=PIPIEE, bin_number=4
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 18:19:19 2023]
+rule run_pluginbatch:
+    input: workspace.root, root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_2.root
+    output: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root
+    log: tutorial_dataset_pluginbatch_PDF_Dataset_BFsignal_PIPIEE_2_0.log
+    jobid: 13
+    reason: Missing output files: root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root; Input files updated by another job: root/scan1dDatasetsProb_PDF_Dataset_3p_BFsignal_PIPIEE_2.root
+    wildcards: name=PDF_Dataset, var=BFsignal, nbin=2, decay=PIPIEE, jobnum=0
+    resources: tmpdir=/tmp/ascarabo
+
+WorkflowError:
+Error when formatting ' bin/tutorial_dataset --var {scanvar} --npoints 3 --scanrange 1e-8:1.e-6 -a pluginbatch --ntoys 1 --nrun {wildcards.jobnum} --decay {wildcards.decay} --bin {wildcards.bin_number}  > {log}' for rule run_pluginbatch. 'Wildcards' object has no attribute 'bin_number'

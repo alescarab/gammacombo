@@ -1,0 +1,129 @@
+Building DAG of jobs...
+Using shell: /cvmfs/lhcbdev.cern.ch/conda/envs/default/2023-03-05_13-05/linux-64/bin/bash
+Provided cores: 32
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+all               1              1              1
+build_wspc        8              1              1
+total             9              1              1
+
+Select jobs to execute...
+
+[Fri Mar 24 16:31:51 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_0.root
+    log: build_workspace_PIPIEE_0.log
+    jobid: 1
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=0
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 16:31:51 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_2.root
+    log: build_workspace_PIPIEE_2.log
+    jobid: 3
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=2
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 16:31:51 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_4.root
+    log: build_workspace_PIPIEE_4.log
+    jobid: 5
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=4
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 16:31:51 2023]
+rule build_wspc:
+    output: workspace_KKEE_1.root
+    log: build_workspace_KKEE_1.log
+    jobid: 7
+    reason: Forced execution
+    wildcards: decay=KKEE, bin_number=1
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 16:31:51 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_1.root
+    log: build_workspace_PIPIEE_1.log
+    jobid: 2
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=1
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 16:31:51 2023]
+rule build_wspc:
+    output: workspace_PIPIEE_3.root
+    log: build_workspace_PIPIEE_3.log
+    jobid: 4
+    reason: Forced execution
+    wildcards: decay=PIPIEE, bin_number=3
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 16:31:52 2023]
+rule build_wspc:
+    output: workspace_KKEE_0.root
+    log: build_workspace_KKEE_0.log
+    jobid: 6
+    reason: Forced execution
+    wildcards: decay=KKEE, bin_number=0
+    resources: tmpdir=/tmp/ascarabo
+
+
+[Fri Mar 24 16:31:52 2023]
+rule build_wspc:
+    output: workspace_KKEE_2.root
+    log: build_workspace_KKEE_2.log
+    jobid: 8
+    reason: Forced execution
+    wildcards: decay=KKEE, bin_number=2
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 24 16:31:52 2023]
+Finished job 2.
+1 of 9 steps (11%) done
+[Fri Mar 24 16:31:52 2023]
+Finished job 6.
+2 of 9 steps (22%) done
+[Fri Mar 24 16:31:52 2023]
+Finished job 7.
+3 of 9 steps (33%) done
+[Fri Mar 24 16:31:52 2023]
+Finished job 4.
+4 of 9 steps (44%) done
+[Fri Mar 24 16:31:52 2023]
+Finished job 5.
+5 of 9 steps (56%) done
+[Fri Mar 24 16:31:53 2023]
+Finished job 1.
+6 of 9 steps (67%) done
+[Fri Mar 24 16:31:53 2023]
+Finished job 8.
+7 of 9 steps (78%) done
+[Fri Mar 24 16:31:53 2023]
+Finished job 3.
+8 of 9 steps (89%) done
+Select jobs to execute...
+
+[Fri Mar 24 16:31:53 2023]
+localrule all:
+    input: workspace_PIPIEE_0.root, workspace_PIPIEE_1.root, workspace_PIPIEE_2.root, workspace_PIPIEE_3.root, workspace_PIPIEE_4.root, workspace_KKEE_0.root, workspace_KKEE_1.root, workspace_KKEE_2.root
+    jobid: 0
+    reason: Input files updated by another job: workspace_KKEE_1.root, workspace_KKEE_2.root, workspace_PIPIEE_0.root, workspace_PIPIEE_1.root, workspace_PIPIEE_2.root, workspace_PIPIEE_4.root, workspace_KKEE_0.root, workspace_PIPIEE_3.root
+    resources: tmpdir=/tmp/ascarabo
+
+[Fri Mar 24 16:31:53 2023]
+Finished job 0.
+9 of 9 steps (100%) done
+Complete log: .snakemake/log/2023-03-24T163151.139634.snakemake.log

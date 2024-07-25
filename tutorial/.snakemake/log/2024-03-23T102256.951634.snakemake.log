@@ -1,0 +1,3 @@
+NameError in file /afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile, line 122:
+name 'wildcards' is not defined
+  File "/afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile", line 122, in <module>

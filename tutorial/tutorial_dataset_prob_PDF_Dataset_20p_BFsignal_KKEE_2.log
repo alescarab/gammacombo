@@ -1,0 +1,148 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+
+[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+
+INFO in PDF_Datasets::initData -- Data initialized
+intitalising no multipdf. isPdfSet=0 isMultipdfSet=0.
+INFO in PDF_Datasets::initPDF -- PDF initialized
+[#1] INFO:Minization -- createNLL: caching constraint set under name CONSTR_OF_PDF_mass_model_FOR_OBS_D_M:sample_CLs with 9 entries
+[#1] INFO:Minization --  Including the following constraint terms in minimization: (BF_norm_constraint,Eff_Ratio_constraintbrem0_1516_bin2,Eff_Ratio_constraintbrem0_1718_bin2,Eff_Ratio_constraintbrem1_1516_bin2,Eff_Ratio_constraintbrem1_1718_bin2,Y_Norm_constraint_brem0_1516_565-950,Y_Norm_constraint_brem0_1718_565-950,Y_Norm_constraint_brem1_1516_565-950,Y_Norm_constraint_brem1_1718_565-950)
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state brem0_1516 (4 dataset entries)
+[#0] ERROR:Integration --  RooNumIntFactory::Init : libRooFitMore cannot be loaded. GSL integrators will not beavailable ! 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state brem0_1718 (7 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #2 for state brem1_1516 (8 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+RooAbsTestStatistic::initSimMode: creating slave calculator #3 for state brem1_1718 (5 dataset entries)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 4 slave calculators.
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem0_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(model_misid_only_bkg_brem1_1516_565-950_Int[D_M]) using numeric integrator RooIntegrator1D to calculate Int(D_M)
+[#1] INFO:Eval -- RooRealVar::setRange(D_M) new range named 'unblind0' created with bounds [1700,2050]
+Start parameter configuration:
+
+  No start parameter file was found, will use the default values
+  configured in ParameterAbs class. Start parameter files are searched
+  in the following order:
+  1. --parfile option
+  2. default start paramter file: plots/par/tutorial_dataset_PDF_Dataset_BFsignal_start.dat
+
+=============== Global minimum (2*-Log(Likelihood)) is: 282.902
+=============== Bkg minimum (2*-Log(Likelihood)) is: 282.902
+WARNING: BKG MINIMUM IS LOWER THAN GLOBAL MINIMUM! The likelihoods are screwed up! Set bkg minimum to global minimum for consistency.
+=============== New bkg minimum (2*-Log(Likelihood)) is: 282.902
+Scan strategy:
+==============
+
+1. perform an initial scan
+2. perform an additional scan starting from each solution found
+
+first scan ...
+MethodDatasetsProbScan::scan1d_prob() : starting ... with 20 scanpoints...
+  5% [==                                                ] 10% [=====                                             ] 15% [=======                                           ] 20% [==========                                        ] 25% [============                                      ] 30% [===============                                   ] 35% [=================                                 ] 40% [====================                              ] 45% [======================                            ] 50% [=========================                         ] 55% [===========================                       ] 60% [==============================                    ] 65% [================================                  ] 70% [===================================               ] 75% [=====================================             ] 80% [========================================          ] 85% [==========================================        ] 90% [=============================================     ] 95% [===============================================   ]100% [==================================================]                                                          Wrote ToyTree to file
+analysing toys ...
+  5% [==                                                ] 10% [=====                                             ] 15% [=======                                           ] 20% [==========                                        ] 25% [============                                      ] 30% [===============                                   ] 35% [=================                                 ] 40% [====================                              ] 45% [======================                            ] 50% [=========================                         ] 55% [===========================                       ] 60% [==============================                    ] 65% [================================                  ] 70% [===================================               ] 75% [=====================================             ] 80% [========================================          ] 85% [==========================================        ] 90% [=============================================     ] 95% [===============================================   ]100% [==================================================]                                                          Best fit at: scanVar  = 0 with Chi2Min: 282.902
+Scan i: 0
+
+Results:
+========
+
+SOLUTION 0:
+
+  combination: PDF_Dataset
+  title:       default
+  date:        Tue Mar 28 16:30:16 2023
+  FCN: 141.451, EDM: 1.90436e-08
+  COV quality: 3, status: 0, confirmed: yes
+
+    Parameter                      FinalValue +/- Error (HESSE)
+  ----------------------------   ---------------------------------
+                      BF_norm          4e-06 +/-          0 (const)
+                BF_norm_sigma          5e-07 +/-          0 (const)
+       Eff_Ratio_brem0_1516_bin2       0.468967 +/-          0 (const)
+       Eff_Ratio_brem0_1718_bin2       0.629685 +/-          0 (const)
+       Eff_Ratio_brem1_1516_bin2       0.482849 +/-          0 (const)
+       Eff_Ratio_brem1_1718_bin2       0.538523 +/-          0 (const)
+       Eff_Ratio_sigmabrem0_1516_bin2      0.0234483 +/-          0 (const)
+       Eff_Ratio_sigmabrem0_1718_bin2      0.0314842 +/-          0 (const)
+       Eff_Ratio_sigmabrem1_1516_bin2      0.0241424 +/-          0 (const)
+       Eff_Ratio_sigmabrem1_1718_bin2      0.0269262 +/-          0 (const)
+       Y_Norm_brem0_1516_565-950        48.8057 +/-          0 (const)
+       Y_Norm_brem0_1718_565-950        208.228 +/-          0 (const)
+       Y_Norm_brem1_1516_565-950        51.4724 +/-          0 (const)
+       Y_Norm_brem1_1718_565-950        433.027 +/-          0 (const)
+       Y_Norm_sigma_brem0_1516_565-950        11.1705 +/-          0 (const)
+       Y_Norm_sigma_brem0_1718_565-950        21.3236 +/-          0 (const)
+       Y_Norm_sigma_brem1_1516_565-950        7.66261 +/-          0 (const)
+       Y_Norm_sigma_brem1_1718_565-950        24.8819 +/-          0 (const)
+            alpha_CB1_565-950        2.94589 +/-          0 (const)
+             alpha_CB_565-950       0.251387 +/-          0 (const)
+         asym_had_bkg_565-950      -0.165944 +/-          0 (const)
+       asym_had_bkg_brem_565-950       0.232694 +/-          0 (const)
+                   c1_565-950      0.0557152 +/-          0 (const)
+             c1_brem1_565-950       0.059472 +/-          0 (const)
+                 frac_565-950       0.559988 +/-          0 (const)
+                mean1_565-950        1858.65 +/-          0 (const)
+                 mean_565-950        1855.26 +/-          0 (const)
+         mean_had_bkg_565-950         1814.9 +/-          0 (const)
+       mean_had_bkg_brem_565-950        1857.27 +/-          0 (const)
+                   n1_565-950       0.764858 +/-          0 (const)
+                    n_565-950        31.0612 +/-          0 (const)
+            ratio_brem1_brem0          0.074 +/-          0 (const)
+         rho0_had_bkg_565-950      0.0430116 +/-          0 (const)
+       rho0_had_bkg_brem_565-950       0.169049 +/-          0 (const)
+         rho1_had_bkg_565-950      0.0726106 +/-          0 (const)
+       rho1_had_bkg_brem_565-950       0.204405 +/-          0 (const)
+               sigma1_565-950        17.4989 +/-          0 (const)
+               sigma2_565-950         60.797 +/-          0 (const)
+                sigma_565-950        8.73663 +/-          0 (const)
+        sigma_had_bkg_565-950        11.3611 +/-          0 (const)
+       sigma_had_bkg_brem_565-950        26.1962 +/-          0 (const)
+     0            BF_norm_obs          4e-06 +/- 4.99132e-07
+     1               BFsignal              0 +/- 4.47961e-08
+     2 Eff_Ratio_obsbrem0_1516_bin2       0.468966 +/-  0.0234473
+     3 Eff_Ratio_obsbrem0_1718_bin2       0.629685 +/-  0.0314823
+     4 Eff_Ratio_obsbrem1_1516_bin2       0.482849 +/-  0.0241414
+     5 Eff_Ratio_obsbrem1_1718_bin2       0.538523 +/-  0.0269248
+     6 Y_Norm_obs_brem0_1516_565-950        48.8053 +/-    11.1688
+     7 Y_Norm_obs_brem0_1718_565-950        208.228 +/-    21.3193
+     8 Y_Norm_obs_brem1_1516_565-950        51.4724 +/-    7.66186
+     9 Y_Norm_obs_brem1_1718_565-950        433.027 +/-    24.8781
+    10 n_comb_brem0_1516_bin2        5.49981 +/-    1.66759
+    11 n_comb_brem1_1516_bin2            6.5 +/-    1.80228
+    12 n_misid_brem0_1516_bin2    6.05458e-08 +/-    20.7794
+
+Computing CL values based on test statistic decision
+Using 2-sided test statistic
+Confidence Intervals for CLs method 1:
+CONFIDENCE INTERVALS for combination PDF_Dataset
+
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+BFsignal = [-0.000000015, 0.000000117] (0.000000000 -0.000000015 +0.000000117) @0.90CL, DatasetsProb Simplified CL_s
+
+BFsignal = [-0.000000015, 0.000000159] (0.000000000 -0.000000015 +0.000000159) @0.95CL, DatasetsProb Simplified CL_s
+
+
+
+
+Simplified CL_s: 
+BFsignal = [  -0.00,    0.00] @0.90CL, DatasetsProb (boundary scan)
+Simplified CL_s: 
+BFsignal = [  -0.00,    0.00] @0.95CL, DatasetsProb (boundary scan)
+
+saving parameters to: plots/par/tutorial_dataset_PDF_Dataset_BFsignal.dat
+MethodDatasetsProbScan::plotFitRes() : WARNING : No background pdf is given. Will plot S+B hypothesis with S=0.
+23.9992
+saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_BFsignal_cls_fit.pdf
+Dataset Scan Done
+saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_BFsignal_cls.pdf
+
+Real time 0:00:01, CP time 0.880

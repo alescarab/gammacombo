@@ -87,8 +87,8 @@ void CLIntervalPrinter::savePython()
 {
 	TString dirname = "plots/cl";
         TString ofname;
-        if (_clstype==0) ofname = dirname+"/clintervals_"+_name+"_"+_var+"_"+_method+".py";
-        else ofname = dirname+"/clintervals_"+_name+"_"+_var+"_"+_method+"_CLs"+std::to_string(_clstype)+".py";
+        if (_clstype==0) ofname = Form(dirname+"/clintervals_"+_name+"_"+_var+"_"+_arg->decay+"_%i_"+_method+".py",_arg->bin);
+        else ofname = Form(dirname+"/clintervals_"+_name+"_"+_var+"_"+_arg->decay+"_%i_"+_method+"_CLs"+std::to_string(_clstype)+".py",_arg->bin);
         if ( _arg->verbose ) cout << "CLIntervalPrinter::save() : saving " << ofname << endl;
         system("mkdir -p "+dirname);
         ofstream outf;

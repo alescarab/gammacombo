@@ -196,7 +196,7 @@ TString FileNameBuilder::getFileNamePlot(const vector<Combiner*>& cmb)
 		name += "_"+cmb[m_arg->combid[i]]->getName();
 		//if ( m_arg->isAsimovCombiner(i) ) name += Form("Asimov%i",m_arg->asimov[i]);
 	}
-	name += "_"+m_arg->var[0];
+	name += "_"+m_arg->var[0]+"_"+m_arg->decay+"_"+m_arg->bin;
 	if ( m_arg->var.size()==2 )           name += "_"+m_arg->var[1];
 	if ( m_arg->plotpluginonly )          name += "_"+getPluginOnlyNameAddition();
 	else if ( m_arg->isAction("plugin") ) name += "_"+getPluginNameAddition();
@@ -218,7 +218,7 @@ TString FileNameBuilder::getFileNamePlotSingle(const vector<Combiner*>& cmb, int
 {
 	TString name = m_basename;
 	name += "_"+cmb[m_arg->combid[cId]]->getName();
-	name += "_"+m_arg->var[0];
+	name += "_"+m_arg->var[0]+"_"+m_arg->decay+"_"+m_arg->bin;
 	if ( m_arg->var.size()==2 )           name += "_"+m_arg->var[1];
 	if ( m_arg->plotpluginonly )          name += "_"+getPluginOnlyNameAddition();
 	else if ( m_arg->isAction("plugin") ) name += "_"+getPluginNameAddition();

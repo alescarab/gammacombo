@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in line 115 of /afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile:
+Wildcards in input files cannot be determined from output files:
+'bin_number'

@@ -24,6 +24,7 @@ class OneMinusClPlot : public OneMinusClPlotAbs
 
 		void            drawSolutions();
 		void            drawCLguideLines();
+		void            drawCLguideLines_noObs();
 		TGraph*         getGraph(MethodAbsScan* s, bool first=true, bool last=false, bool filled=true, int CLsType=0){return scan1dPlot(s,first,last,filled, CLsType);};
 		inline TString  getName(){return name;};
 		inline void     setPluginMarkers(bool yesNo=true){plotPluginMarkers = yesNo;};
@@ -31,6 +32,7 @@ class OneMinusClPlot : public OneMinusClPlotAbs
 
 	private:
 		void            drawCLguideLine(float pvalue);
+		void            drawCLguideLine_noObs(float pvalue);
 		void            drawVerticalLine(float x, int color, int style);
 		TGraph*         scan1dPlot(MethodAbsScan* s, bool first, bool last, bool filled, int CLsType=0);
 		void            scan1dPlotSimple(MethodAbsScan* s, bool first, int CLsType=0);

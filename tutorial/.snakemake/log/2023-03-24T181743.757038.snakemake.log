@@ -1,0 +1,8 @@
+Building DAG of jobs...
+MissingInputException in line 48 of /afs/cern.ch/work/a/ascarabo/rare-charm-d0-hhee/Optimization/gammacombo/tutorial/Snakefile:
+Missing input files for rule all:
+    affected files:
+        root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_4_run0.root
+        root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_1_run0.root
+        root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_0_run0.root
+        root/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2/scan1dDatasetsPlugin_PDF_Dataset_BFsignal_PIPIEE_2_run0.root

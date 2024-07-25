@@ -202,7 +202,7 @@ void MethodDatasetsProbScan::loadScanFromFile(TString fileNameBaseIn) {
     if ( arg->debug ) cout << "MethodDatasetsProbScan::loadFromFile() : loading ..." << endl;
 
     TChain* c = new TChain("plugin");
-    TString file = Form("root/scan1dDatasetsProb_" + this->pdf->getName() + "_%ip" + "_" + scanVar1 + ".root", arg->npoints1d);
+    TString file = Form("root/scan1dDatasetsProb_" + this->pdf->getName() + "_%ip" + "_" + scanVar1 + "_" + arg->decay + "_%i.root", arg->npoints1d,  arg->bin);
     Utils::assertFileExists(file);
     c->Add(file);
 
@@ -387,7 +387,7 @@ int MethodDatasetsProbScan::scan1d(bool fast, bool reverse, bool quiet)
 
     // Define outputfile
     system("mkdir -p root");
-    TString probResName = Form("root/scan1dDatasetsProb_" + this->pdf->getName() + "_%ip" + "_" + scanVar1 + ".root", arg->npoints1d);
+    TString probResName = Form("root/scan1dDatasetsProb_" + this->pdf->getName() + "_%ip" + "_" + scanVar1 + "_" + arg->decay + "_%i.root", arg->npoints1d,  arg->bin);
     TFile* outputFile = new TFile(probResName, "RECREATE");
 
     // Set up toy root tree
